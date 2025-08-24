@@ -19,8 +19,10 @@ import AnalysisPage from './pages/AnalysisPage';
 import TowerManagementPage from './pages/TowerManagementPage';
 import ReportsPage from './pages/ReportsPage';
 import SettingsPage from './pages/SettingsPage';
-import ReportPage from './pages/ReportPage'; // Keep existing report detail page
+import ReportPage from './pages/ReportPage';
 import LoginPage from './pages/LoginPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
+import ResetPasswordPage from './pages/ResetPasswordPage';
 
 function App() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -35,8 +37,10 @@ function App() {
         <AlertProvider>
           <Router>
             <Routes>
-              {/* Public route */}
+              {/* Public routes */}
               <Route path="/login" element={<LoginPage />} />
+              <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+              <Route path="/reset-password" element={<ResetPasswordPage />} />
               
               {/* Protected routes */}
               <Route path="/*" element={

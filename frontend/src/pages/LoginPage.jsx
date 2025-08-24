@@ -2,7 +2,7 @@
  * Login page with email/password authentication
  */
 import React, { useState } from 'react';
-import { Navigate } from 'react-router-dom';
+import { Navigate, Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { PrimaryButton } from '../components/common/Button';
 import { Eye, EyeOff, Zap } from 'lucide-react';
@@ -131,6 +131,21 @@ const LoginPage = () => {
             >
               {loginLoading ? 'Signing in...' : 'Sign in'}
             </PrimaryButton>
+          </div>
+
+          <div className="text-center space-y-2">
+            <Link
+              to="/forgot-password"
+              className="text-sm text-primary-600 hover:text-primary-500 dark:text-primary-400 dark:hover:text-primary-300"
+            >
+              Forgot your password?
+            </Link>
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Don't have an account?{' '}
+              <span className="font-medium text-gray-500 dark:text-gray-400">
+                Contact administrator
+              </span>
+            </p>
           </div>
         </form>
       </div>
