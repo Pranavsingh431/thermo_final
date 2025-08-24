@@ -5,8 +5,13 @@ fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+
 # Database
 sqlalchemy==2.0.23
+alembic==1.12.1
 psycopg2-binary==2.9.9
 
 # Data processing
@@ -21,8 +26,9 @@ opencv-python-headless==4.10.0.84
 
 # HTTP requests
 requests==2.31.0
+aiofiles==23.2.1
 
-# CORS middleware
+# Environment and configuration
 python-dotenv==1.0.0
 
 # Email
@@ -30,6 +36,11 @@ secure-smtplib==0.1.1
 openpyxl==3.1.2
 reportlab==3.6.12
 matplotlib==3.7.2
+
+# Monitoring and logging
+structlog==23.2.0
+sentry-sdk[fastapi]==1.38.0
+prometheus-client==0.19.0
 
 # Math and utilities
 pydantic==2.5.0

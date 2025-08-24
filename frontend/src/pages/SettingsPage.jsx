@@ -118,17 +118,17 @@ const SettingsPage = () => {
 
   const InputField = ({ label, type = 'text', value, onChange, placeholder, suffix }) => (
     <div>
-      <label className="block text-sm font-medium text-gray-700 mb-2">{label}</label>
+      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">{label}</label>
       <div className="relative">
         <input
           type={type}
           value={value}
           onChange={(e) => onChange(e.target.value)}
           placeholder={placeholder}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+          className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
         />
         {suffix && (
-          <span className="absolute right-3 top-2 text-sm text-gray-500">{suffix}</span>
+          <span className="absolute right-3 top-2 text-sm text-gray-500 dark:text-gray-400">{suffix}</span>
         )}
       </div>
     </div>
@@ -136,11 +136,11 @@ const SettingsPage = () => {
 
   const SelectField = ({ label, value, onChange, options }) => (
     <div>
-      <label className="block text-sm font-medium text-gray-700 mb-2">{label}</label>
+      <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">{label}</label>
       <select
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+        className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100"
       >
         {options.map(option => (
           <option key={option.value} value={option.value}>
@@ -470,14 +470,14 @@ const SettingsPage = () => {
       <div className="flex items-center justify-between">
         <div>
           <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">System Settings</h1>
-          <p className="text-gray-600 mt-2">
+          <p className="text-gray-600 dark:text-gray-400 mt-2">
             Configure system parameters, preferences, and integrations
           </p>
         </div>
         <div className="flex items-center space-x-3">
           <button
             onClick={handleReset}
-            className="flex items-center space-x-2 text-gray-600 hover:text-gray-700 px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+            className="flex items-center space-x-2 text-gray-600 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
           >
             <RefreshCw className="h-4 w-4" />
             <span>Reset Defaults</span>
@@ -515,8 +515,8 @@ const SettingsPage = () => {
                     onClick={() => setActiveTab(tab.id)}
                     className={`w-full flex items-center space-x-3 px-3 py-2 rounded-lg transition-colors text-left ${
                       activeTab === tab.id
-                        ? 'bg-primary-50 text-primary-700 border border-primary-200'
-                        : 'text-gray-700 hover:bg-gray-50'
+                        ? 'bg-primary-50 dark:bg-gray-700 text-primary-700 dark:text-gray-100 border border-primary-200 dark:border-gray-600'
+                        : 'text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-800'
                     }`}
                   >
                     <Icon className="h-5 w-5" />

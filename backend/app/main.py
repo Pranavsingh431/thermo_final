@@ -14,12 +14,43 @@ from datetime import datetime
 from typing import List, Dict, Optional, Any, Tuple
 from math import radians, cos, sin, asin, sqrt
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s %(levelname)s %(name)s %(message)s'
+# Configure structured logging
+import structlog
+import sentry_sdk
+from sentry_sdk.integrations.fastapi import FastApiIntegration
+from sentry_sdk.integrations.sqlalchemy import SqlAlchemyIntegration
+
+structlog.configure(
+    processors=[
+        structlog.stdlib.filter_by_level,
+        structlog.stdlib.add_logger_name,
+        structlog.stdlib.add_log_level,
+        structlog.stdlib.PositionalArgumentsFormatter(),
+        structlog.processors.TimeStamper(fmt="iso"),
+        structlog.processors.StackInfoRenderer(),
+        structlog.processors.format_exc_info,
+        structlog.processors.JSONRenderer()
+    ],
+    context_class=dict,
+    logger_factory=structlog.stdlib.LoggerFactory(),
+    wrapper_class=structlog.stdlib.BoundLogger,
+    cache_logger_on_first_use=True,
 )
-logger = logging.getLogger(__name__)
+
+# Configure Sentry for error tracking
+SENTRY_DSN = os.environ.get('SENTRY_DSN')
+if SENTRY_DSN:
+    sentry_sdk.init(
+        dsn=SENTRY_DSN,
+        integrations=[
+            FastApiIntegration(auto_enabling_integrations=False),
+            SqlAlchemyIntegration(),
+        ],
+        traces_sample_rate=0.1,
+        environment=os.environ.get('ENVIRONMENT', 'development')
+    )
+
+logger = structlog.get_logger()
 
 import pandas as pd
 import numpy as np
@@ -58,7 +89,7 @@ from sqlalchemy.orm import sessionmaker, Session
 
 # Import configuration
 from app.config import *
-from app.models import Base, ThermalReport, User as AuthUser
+from app.models import Base, ThermalReport, User as AuthUser, AuditLog
 from app.auth.routes import router as auth_router
 from app.auth.dependencies import get_current_user
 from app.middleware.rate_limit import RateLimitMiddleware, upload_rate_limit, general_rate_limit
@@ -95,24 +126,31 @@ app.add_middleware(RateLimitMiddleware, calls=60, period=60)
 # Global exception handler
 @app.exception_handler(Exception)
 async def global_exception_handler(request: Request, exc: Exception):
-    """Global exception handler with trace IDs"""
+    """Global exception handler with structured logging and trace ID"""
     import traceback
     import uuid
     
-    trace_id = str(uuid.uuid4())[:8]
-    error_detail = {
-        "error_code": "INTERNAL_ERROR",
-        "message": "An unexpected error occurred",
-        "trace_id": trace_id
-    }
+    trace_id = str(uuid.uuid4())
     
-    # Log the full error for debugging
-    logger.error(f"[{trace_id}] Error on {request.method} {request.url}: {str(exc)}")
-    logger.error(f"[{trace_id}] Traceback: {traceback.format_exc()}")
+    logger.error(
+        "Unhandled exception",
+        trace_id=trace_id,
+        error_type=type(exc).__name__,
+        error_message=str(exc),
+        path=request.url.path,
+        method=request.method,
+        user_agent=request.headers.get("user-agent"),
+        client_host=request.client.host if request.client else None,
+        traceback=traceback.format_exc(),
+        exc_info=True
+    )
+    
+    if SENTRY_DSN:
+        sentry_sdk.capture_exception(exc)
     
     return JSONResponse(
         status_code=500,
-        content=error_detail
+        content={"detail": "Internal server error", "trace_id": trace_id}
     )
 
 # Database setup - using unified models
@@ -189,7 +227,7 @@ class ExcelDataIntegrator:
                         # Capacity and commissioning year coercion
                         capacity_raw = row.get(cap_col, 1000) if cap_col in df.columns else 1000
                         commissioning_raw = row.get(comm_col, 2000) if comm_col in df.columns else 2000
-                        capacity_val = pd.to_numeric(capacity_raw, errors='ignore')
+                        capacity_val = pd.to_numeric(capacity_raw, errors='coerce')
                         if isinstance(capacity_val, str):
                             # pull first number sequence
                             cm = re.search(r'(\d+)', capacity_val)
@@ -208,7 +246,7 @@ class ExcelDataIntegrator:
                 print(f"⚠️ Warning: Could not parse Excel path {path}: {e}")
         print(f"✅ Loaded metadata for {loaded} line records from Excel")
     
-    def get_tower_metadata(self, tower_name: str, camp_name: str = None) -> Dict[str, Any]:
+    def get_tower_metadata(self, tower_name: str, camp_name: Optional[str] = None) -> Dict[str, Any]:
         """Get metadata for a tower by matching with camp/line info or line name heuristics."""
         # Default metadata
         default = {
@@ -278,7 +316,7 @@ class ExcelDataIntegrator:
         else:
             return "MEDIUM"
     
-    def get_dynamic_threshold(self, tower_name: str, camp_name: str = None) -> float:
+    def get_dynamic_threshold(self, tower_name: str, camp_name: Optional[str] = None) -> float:
         """Calculate dynamic temperature threshold for a tower."""
         metadata = self.get_tower_metadata(tower_name, camp_name)
         
@@ -385,7 +423,7 @@ def extract_gps_from_image(image_path: str) -> tuple:
     """Extract GPS coordinates from image EXIF data."""
     try:
         with Image.open(image_path) as img:
-            exif_data = img._getexif()
+            exif_data = img.getexif()
             
             if exif_data:
                 gps_data = {}
@@ -1463,6 +1501,15 @@ async def root():
     """Health check endpoint."""
     return {"message": "Thermal Eye API is running", "version": "1.0.0", "towers_loaded": len(towers_df)}
 
+@app.get("/health")
+async def health_check():
+    """Health check endpoint for monitoring"""
+    return {
+        "status": "healthy",
+        "timestamp": datetime.now().isoformat(),
+        "version": "2.0.0"
+    }
+
 
 
 @app.post("/upload", response_model=UploadResponse)
@@ -1660,10 +1707,39 @@ async def upload_thermal_image(
             analysis_status=db_report.analysis_status
         )
         
+        # Create audit log entry
+        audit_log = AuditLog(
+            user_id=current_user.id,
+            user_email=current_user.email,
+            action="UPLOAD_IMAGE",
+            resource=file.filename,
+            details=f"Tower: {db_report.tower_name}, Analysis: {fault_level}",
+            ip_address=request.client.host if request and request.client else None,
+            user_agent=request.headers.get("user-agent") if request else None
+        )
+        db.add(audit_log)
+        db.commit()
+
+        logger.info(
+            "Image uploaded successfully",
+            user_id=current_user.id,
+            report_id=db_report.id,
+            filename=file.filename,
+            tower_name=db_report.tower_name,
+            fault_level=fault_level
+        )
+        
         print(f"✅ Image analysis completed: {fault_level} - {db_report.tower_name or 'No tower'}")
         return response
         
     except Exception as e:
+        logger.error(
+            "Upload processing failed",
+            user_id=current_user.id,
+            filename=file.filename,
+            error=str(e),
+            exc_info=True
+        )
         # Clean up file on error
         if os.path.exists(image_path):
             os.remove(image_path)

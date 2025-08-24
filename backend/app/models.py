@@ -40,3 +40,18 @@ class User(Base):
     hashed_password = Column(String, nullable=False)
     role = Column(String, default="viewer")  # 'admin', 'viewer'
     created_at = Column(DateTime, default=datetime.utcnow)
+    reset_token = Column(String, nullable=True)
+    reset_token_expires = Column(DateTime, nullable=True)
+
+class AuditLog(Base):
+    __tablename__ = "audit_logs"
+    
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, nullable=True)
+    user_email = Column(String, nullable=True)
+    action = Column(String, nullable=False)
+    resource = Column(String, nullable=True)
+    details = Column(String, nullable=True)
+    ip_address = Column(String, nullable=True)
+    user_agent = Column(String, nullable=True)
+    timestamp = Column(DateTime, default=datetime.utcnow)

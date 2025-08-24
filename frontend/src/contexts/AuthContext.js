@@ -18,6 +18,7 @@ export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
+  const [refreshToken, setRefreshToken] = useState(localStorage.getItem('refresh_token'));
 
   // Check if user is authenticated
   const isAuthenticated = () => {
@@ -46,6 +47,8 @@ export const AuthProvider = ({ children }) => {
 
       const data = await response.json();
       localStorage.setItem('te_token', data.access_token);
+      localStorage.setItem('refresh_token', data.refresh_token);
+      setRefreshToken(data.refresh_token);
       
       // Get user info
       const userResponse = await fetch(`${API_BASE_URL}/auth/me`, {
@@ -72,9 +75,84 @@ export const AuthProvider = ({ children }) => {
   // Logout function
   const logout = useCallback(() => {
     localStorage.removeItem('te_token');
+    localStorage.removeItem('refresh_token');
+    setRefreshToken(null);
     setUser(null);
     setError(null);
   }, []);
+
+  const refreshAccessToken = async () => {
+    try {
+      const storedRefreshToken = localStorage.getItem('refresh_token');
+      if (!storedRefreshToken) {
+        throw new Error('No refresh token available');
+      }
+
+      const response = await fetch(`${API_BASE_URL}/auth/refresh`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ refresh_token: storedRefreshToken }),
+      });
+
+      if (!response.ok) {
+        throw new Error('Token refresh failed');
+      }
+
+      const data = await response.json();
+      localStorage.setItem('te_token', data.access_token);
+      localStorage.setItem('refresh_token', data.refresh_token);
+      setRefreshToken(data.refresh_token);
+      
+      return data.access_token;
+    } catch (err) {
+      logout();
+      throw err;
+    }
+  };
+
+  const forgotPassword = async (email) => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/forgot-password`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.detail || 'Password reset request failed');
+      }
+
+      return await response.json();
+    } catch (err) {
+      throw err;
+    }
+  };
+
+  const resetPassword = async (token, newPassword) => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/reset-password`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ token, new_password: newPassword }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.detail || 'Password reset failed');
+      }
+
+      return await response.json();
+    } catch (err) {
+      throw err;
+    }
+  };
 
   // Verify token and get user info
   const verifyToken = useCallback(async () => {
@@ -125,6 +203,9 @@ export const AuthProvider = ({ children }) => {
     login,
     logout,
     verifyToken,
+    refreshAccessToken,
+    forgotPassword,
+    resetPassword,
     isAuthenticated: !!user,
   };
 

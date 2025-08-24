@@ -4,11 +4,15 @@ Email template system for Thermal Eye
 Provides professional HTML and plaintext email templates
 """
 
-from typing import Dict, Any, Tuple
+from typing import Dict, Any, Tuple, List, Optional
 from datetime import datetime
+import smtplib
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from .config import SMTP_HOST, SMTP_PORT, SMTP_USER, SMTP_PASSWORD, ALERT_EMAIL_RECIPIENT, FRONTEND_URL
 
 
-def generate_critical_alert_email(report_data: Dict[str, Any], ai_summary: str = "") -> Tuple[str, str]:
+def generate_critical_alert_email(report_data: Dict[str, Any], ai_summary: str = "") -> Tuple[str, str, str]:
     """
     Generate professional critical alert email in both HTML and plaintext formats
     
@@ -204,14 +208,94 @@ Report ID: {report_data.get('id', 'N/A')} | Generated: {datetime.now().strftime(
     return subject, html_body, text_body
 
 
+async def send_password_reset_email(email: str, reset_token: str):
+    """Send password reset email"""
+    reset_url = f"{FRONTEND_URL}/reset-password?token={reset_token}"
+    
+    subject = "Thermal Eye - Password Reset Request"
+    
+    html_body = f"""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Password Reset</title>
+        <style>
+            body {{ font-family: Arial, sans-serif; line-height: 1.6; color: #333; }}
+            .container {{ max-width: 600px; margin: 0 auto; padding: 20px; }}
+            .header {{ background: #1f2937; color: white; padding: 20px; text-align: center; }}
+            .content {{ padding: 20px; background: #f9fafb; }}
+            .button {{ display: inline-block; padding: 12px 24px; background: #3b82f6; color: white; text-decoration: none; border-radius: 6px; }}
+            .footer {{ padding: 20px; text-align: center; color: #6b7280; font-size: 14px; }}
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>🔥 Thermal Eye</h1>
+                <p>Password Reset Request</p>
+            </div>
+            <div class="content">
+                <h2>Reset Your Password</h2>
+                <p>You requested a password reset for your Thermal Eye account. Click the button below to reset your password:</p>
+                <p style="text-align: center; margin: 30px 0;">
+                    <a href="{reset_url}" class="button">Reset Password</a>
+                </p>
+                <p><strong>This link will expire in 1 hour.</strong></p>
+                <p>If you didn't request this reset, please ignore this email. Your password will remain unchanged.</p>
+                <p>For security reasons, this link can only be used once.</p>
+            </div>
+            <div class="footer">
+                <p>Thermal Eye Professional Edition</p>
+                <p>AI-Powered Thermal Analysis System</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    """
+    
+    text_body = f"""
+    Thermal Eye - Password Reset Request
+    
+    You requested a password reset for your Thermal Eye account.
+    
+    Reset your password by visiting: {reset_url}
+    
+    This link will expire in 1 hour.
+    
+    If you didn't request this reset, please ignore this email.
+    
+    Thermal Eye Professional Edition
+    AI-Powered Thermal Analysis System
+    """
+    
+    msg = MIMEMultipart('alternative')
+    msg['Subject'] = subject
+    msg['From'] = SMTP_USER
+    msg['To'] = email
+    
+    msg.attach(MIMEText(text_body, 'plain'))
+    msg.attach(MIMEText(html_body, 'html'))
+    
+    try:
+        with smtplib.SMTP(SMTP_HOST, SMTP_PORT) as server:
+            server.starttls()
+            server.login(SMTP_USER, SMTP_PASSWORD)
+            server.send_message(msg)
+        print(f"✅ Password reset email sent to {email}")
+    except Exception as e:
+        print(f"❌ Failed to send password reset email: {e}")
+        raise
+
+
 def generate_batch_alert_email(
     critical_count: int, 
     warning_count: int, 
     normal_count: int,
     total_count: int,
-    top_critical_faults: list = None,
+    top_critical_faults: Optional[List] = None,
     ai_summary: str = ""
-) -> Tuple[str, str]:
+) -> Tuple[str, str, str]:
     """
     Generate batch processing alert email
     
