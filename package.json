@@ -1,0 +1,74 @@
+{
+  "name": "thermal-eye",
+  "version": "1.0.0",
+  "description": "Professional thermal imaging analysis system for electrical infrastructure monitoring - Tata Power",
+  "main": "index.js",
+  "scripts": {
+    "setup": "./setup.sh",
+    "start": "./start.sh",
+    "start:docker": "./start.sh --docker",
+    "start:prod": "./start.sh --production",
+    "stop": "./stop.sh",
+    "restart": "./restart.sh",
+    "deploy": "./deploy.sh",
+    "deploy:manual": "./deploy.sh --manual",
+    "dev": "./dev.sh",
+    "test": "./dev.sh test",
+    "test:backend": "./dev.sh test-be",
+    "test:frontend": "./dev.sh test-fe",
+    "test:coverage": "./dev.sh coverage",
+    "lint": "./dev.sh lint",
+    "lint:backend": "./dev.sh lint-be",
+    "lint:frontend": "./dev.sh lint-fe",
+    "format": "./dev.sh format",
+    "clean": "./dev.sh clean",
+    "install:all": "./dev.sh install",
+    "db:migrate": "./dev.sh db-migrate",
+    "db:reset": "./dev.sh db-reset",
+    "db:seed": "./dev.sh db-seed",
+    "logs": "./dev.sh logs",
+    "status": "./dev.sh status",
+    "health": "./dev.sh health",
+    "backup": "./dev.sh backup"
+  },
+  "keywords": [
+    "thermal",
+    "imaging",
+    "analysis",
+    "electrical",
+    "infrastructure",
+    "monitoring",
+    "tata-power",
+    "fastapi",
+    "react",
+    "ai",
+    "ocr",
+    "leaflet",
+    "thermal-inspection"
+  ],
+  "author": "Thermal Eye Development Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/thermal-eye.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/thermal-eye/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/thermal-eye#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

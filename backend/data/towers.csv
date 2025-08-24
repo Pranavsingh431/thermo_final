@@ -1,0 +1,1635 @@
+tower_id,tower_name,latitude,longitude,camp_name
+1,A2 Structure Bhivpuri end,18.935732,73.453223,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+2,Loc. 01,18.935378,73.453458,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+3,Loc. 1A,18.935489,73.452524,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+4,Loc. 02,18.935527,73.451189,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+5,Loc. 03,18.936001,73.448755,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+6,Loc. 04,18.936296,73.446352,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+7,Loc. 05,18.936622,73.443654,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+8,Loc. 06,18.936902,73.441358,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+9,Loc. 07,18.937286,73.438352,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+10,Loc. 10,18.938339,73.42973,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+11,Loc. 08,18.937573,73.435311,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+12,Loc. 09,18.937896,73.432252,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+13,Loc. 18,18.935657,73.408379,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+14,Loc. 17,18.936228,73.411271,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+15,Loc. 16,18.936777,73.414072,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+16,Loc. 15,18.937337,73.416854,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+17,Loc. 14,18.9378,73.419298,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+18,Loc. 13,18.938398,73.422392,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+19,Loc. 11,18.938651,73.427415,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+20,Loc. 12,18.938943,73.425115,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+21,Loc. 19,18.935167,73.406015,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+22,Loc. 20,18.93463,73.403355,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+23,Loc. 21,18.933948,73.40004,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+24,Loc. 22,18.933444,73.39742,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+25,Loc. 23,18.932919,73.396137,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+26,Loc. 24,18.931925,73.393406,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+27,Loc. 25,18.931041,73.391136,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+28,Loc. 26,18.930108,73.388459,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+29,Loc. 27,18.929127,73.3857,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+30,Loc. 28,18.928229,73.383121,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+31,Loc. 29,18.927371,73.380706,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+32,Loc. 30,18.926458,73.378111,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+33,Loc. 31,18.925567,73.375603,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+34,Loc. 32,18.924683,73.373134,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+35,Loc. 33,18.923765,73.370591,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+36,Loc. 34,18.92284,73.367957,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+37,Loc. 36,18.92108,73.362993,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+38,Loc. 35,18.921911,73.365365,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+39,Loc. 37,18.920119,73.360305,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+40,Loc. 38,18.919286,73.3576,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+41,Loc. 39,18.917614,73.355278,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+42,Loc. 40,18.916069,73.352927,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+43,Loc. 41,18.914696,73.350874,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+44,Loc. 42,18.913706,73.349432,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+45,Loc. 43,18.912796,73.347477,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+46,Loc. 44,18.91167,73.345056,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+47,Loc. 45,18.91051,73.342545,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+48,Loc. 46,18.90923,73.339933,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+49,Loc. 48,18.90795,73.337354,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+50,Loc. 64,18.875259,73.324735,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+51,Loc. 63,18.875683,73.326005,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+52,Loc. 62,18.877061,73.326335,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+53,Loc. 60,18.881694,73.326548,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+54,Loc. 58,18.887184,73.327297,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+55,Loc. 57,18.890104,73.327689,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+56,Loc. 56,18.892773,73.328087,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+57,Loc. 55,18.895592,73.328486,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+58,Loc. 54,18.898159,73.328743,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+59,Loc. 53,18.9007,73.329158,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+60,Loc. 49,18.906587,73.334484,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+61,Loc. 52,18.902166,73.329998,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+62,Loc. 51,18.903816,73.331657,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+63,Loc. 50,18.905259,73.333133,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+64,Loc. 59,18.88441,73.326914,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+65,Loc. 61,18.878954,73.326151,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+66,LOC. 65,18.873324,73.323672,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+67,Loc. 66,18.871732,73.322319,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+68,Loc. 67,18.868864,73.321755,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+69,Loc. 68,18.865656,73.321091,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+70,Loc. 69,18.863087,73.320597,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+71,Loc. 70,18.860866,73.320123,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+72,Loc. 71,18.858396,73.319642,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+73,Loc. 72,18.856084,73.319835,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+74,Loc. 73,18.853144,73.320074,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+75,Loc. 74,18.850972,73.320221,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+76,Loc. 75,18.848392,73.320422,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+77,Loc. 76,18.845638,73.320615,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+78,Loc. 77,18.843393,73.320764,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+79,Loc. 78,18.840903,73.320947,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+80,Loc. 79,18.838216,73.321149,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+81,Loc. 80,18.83554,73.32135,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+82,Loc. 81,18.833131,73.321509,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+83,Loc. 82,18.832219,73.321973,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+84,Loc. 83,18.830967,73.322897,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+85,Loc. 84,18.828798,73.3245,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+86,Loc. 85,18.826609,73.326137,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+87,Loc. 86,18.824435,73.327689,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+88,Loc. 87,18.822592,73.329076,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+89,Loc. 88,18.820648,73.330574,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+90,Loc. 89,18.819053,73.331751,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+91,Loc. 90,18.816873,73.333396,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+92,Loc. 91,18.814688,73.334772,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+93,Loc. 92,18.812014,73.336291,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+94,Loc. 93,18.809615,73.337658,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+95,Loc. 100,18.798457,73.344101,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+96,Loc. 95,18.805554,73.34005,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+97,Loc. 94,18.808326,73.339072,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+98,Loc. 97,18.803935,73.342746,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+99,Loc. 99,18.800487,73.343986,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+100,Loc. 98,18.80228,73.342988,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+101,Loc. 108,18.78227,73.354878,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+102,Loc. 107,18.7837,73.353998,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+103,Loc. 106,18.785956,73.352289,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+104,Loc. 105,18.788479,73.350547,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+105,Loc. 104,18.790627,73.349055,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+106,Loc. 103,18.79291,73.347375,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+107,Loc. 101,18.796132,73.345518,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+108,Loc. 102,18.793679,73.34653,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+109,Loc. 96,18.804551,73.341803,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+110,Loc. 47,18.908196,73.338103,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+111,A2 Structure Khopoli End,18.781971,73.354529,110 Kv Khopoli Bhivpuri Tie Line 1 & 2
+112,LOC112,18.715837,73.383884,110 Kv Khopoli Davdi & Bhira Davdi Lines
+113,Loc. 116,18.722844,73.381175,110 Kv Khopoli Davdi & Bhira Davdi Lines
+114,Loc. 117,18.724597,73.380528,110 Kv Khopoli Davdi & Bhira Davdi Lines
+115,Loc. 118,18.725967,73.380003,110 Kv Khopoli Davdi & Bhira Davdi Lines
+116,Loc. 119,18.728158,73.379175,110 Kv Khopoli Davdi & Bhira Davdi Lines
+117,Loc. 120,18.73015,73.378447,110 Kv Khopoli Davdi & Bhira Davdi Lines
+118,Loc. 121,18.734543,73.376795,110 Kv Khopoli Davdi & Bhira Davdi Lines
+119,Loc. 111,18.713934,73.384617,110 Kv Khopoli Davdi & Bhira Davdi Lines
+120,Loc. 122,18.736345,73.376187,110 Kv Khopoli Davdi & Bhira Davdi Lines
+121,Loc. 115,18.720947,73.384657,110 Kv Khopoli Davdi & Bhira Davdi Lines
+122,Loc. 114,18.718194,73.383022,110 Kv Khopoli Davdi & Bhira Davdi Lines
+123,Loc. 113,18.717865,73.383084,110 Kv Khopoli Davdi & Bhira Davdi Lines
+124,A2 Str. Davdi End,18.469993,73.441077,110 Kv Khopoli Davdi & Bhira Davdi Lines
+125,Loc. 23,18.470403,73.441537,110 Kv Khopoli Davdi & Bhira Davdi Lines
+126,Loc. 22,18.470914,73.442439,110 Kv Khopoli Davdi & Bhira Davdi Lines
+127,Loc. 21,18.473444,73.443209,110 Kv Khopoli Davdi & Bhira Davdi Lines
+128,Loc. 20,18.474966,73.443253,110 Kv Khopoli Davdi & Bhira Davdi Lines
+129,Loc. 19,18.475698,73.443044,110 Kv Khopoli Davdi & Bhira Davdi Lines
+130,Loc. 18,18.47622,73.441879,110 Kv Khopoli Davdi & Bhira Davdi Lines
+131,Loc. 17,18.476757,73.440182,110 Kv Khopoli Davdi & Bhira Davdi Lines
+132,Loc. 16,18.478771,73.43935,110 Kv Khopoli Davdi & Bhira Davdi Lines
+133,Loc. 15,18.481168,73.43836,110 Kv Khopoli Davdi & Bhira Davdi Lines
+134,Loc. 14,18.483388,73.437453,110 Kv Khopoli Davdi & Bhira Davdi Lines
+135,Loc. 13,18.485488,73.436595,110 Kv Khopoli Davdi & Bhira Davdi Lines
+136,Loc. 12,18.488004,73.435567,110 Kv Khopoli Davdi & Bhira Davdi Lines
+137,Loc. 11,18.489561,73.433302,110 Kv Khopoli Davdi & Bhira Davdi Lines
+138,Loc. 10,18.491142,73.431001,110 Kv Khopoli Davdi & Bhira Davdi Lines
+139,Loc. 09,18.491663,73.429341,110 Kv Khopoli Davdi & Bhira Davdi Lines
+140,Loc. 08,18.492294,73.427328,110 Kv Khopoli Davdi & Bhira Davdi Lines
+141,Loc. 07,18.493084,73.424805,110 Kv Khopoli Davdi & Bhira Davdi Lines
+142,Loc. 06,18.492934,73.422212,110 Kv Khopoli Davdi & Bhira Davdi Lines
+143,Loc. 05,18.492874,73.421177,110 Kv Khopoli Davdi & Bhira Davdi Lines
+144,Loc. 04,18.492725,73.41859,110 Kv Khopoli Davdi & Bhira Davdi Lines
+145,Loc. 03,18.492304,73.41578,110 Kv Khopoli Davdi & Bhira Davdi Lines
+146,Loc. 02,18.492048,73.414329,110 Kv Khopoli Davdi & Bhira Davdi Lines
+147,Loc. 01,18.491696,73.41211,110 Kv Khopoli Davdi & Bhira Davdi Lines
+148,Loc. 19,18.492242,73.412127,110 Kv Khopoli Davdi & Bhira Davdi Lines
+149,Loc. 20,18.495992,73.412242,110 Kv Khopoli Davdi & Bhira Davdi Lines
+150,Loc. 21,18.49813,73.412307,110 Kv Khopoli Davdi & Bhira Davdi Lines
+151,Loc. 22,18.50129,73.412404,110 Kv Khopoli Davdi & Bhira Davdi Lines
+152,Loc. 23,18.502915,73.412454,110 Kv Khopoli Davdi & Bhira Davdi Lines
+153,Loc. 24,18.504476,73.412502,110 Kv Khopoli Davdi & Bhira Davdi Lines
+154,Loc. 25,18.50627,73.413151,110 Kv Khopoli Davdi & Bhira Davdi Lines
+155,Loc. 26,18.507634,73.41366,110 Kv Khopoli Davdi & Bhira Davdi Lines
+156,Loc. 27,18.51162,73.414928,110 Kv Khopoli Davdi & Bhira Davdi Lines
+157,Loc. 28,18.514532,73.415854,110 Kv Khopoli Davdi & Bhira Davdi Lines
+158,Loc. 29,18.516165,73.416373,110 Kv Khopoli Davdi & Bhira Davdi Lines
+159,Loc. 30,18.520551,73.417768,110 Kv Khopoli Davdi & Bhira Davdi Lines
+160,Loc. 31,18.523609,73.419259,110 Kv Khopoli Davdi & Bhira Davdi Lines
+161,Loc. 32,18.526256,73.42055,110 Kv Khopoli Davdi & Bhira Davdi Lines
+162,Loc. 33,18.528227,73.421511,110 Kv Khopoli Davdi & Bhira Davdi Lines
+163,Loc. 34,18.531285,73.423003,110 Kv Khopoli Davdi & Bhira Davdi Lines
+164,Loc. 35,18.533123,73.423899,110 Kv Khopoli Davdi & Bhira Davdi Lines
+165,Loc. 36,18.534542,73.424591,110 Kv Khopoli Davdi & Bhira Davdi Lines
+166,Loc. 37,18.535156,73.424891,110 Kv Khopoli Davdi & Bhira Davdi Lines
+167,Loc. 38,18.536789,73.424802,110 Kv Khopoli Davdi & Bhira Davdi Lines
+168,Loc. 39,18.539236,73.424668,110 Kv Khopoli Davdi & Bhira Davdi Lines
+169,Loc. 40,18.541653,73.424537,110 Kv Khopoli Davdi & Bhira Davdi Lines
+170,Loc. 41,18.543003,73.424463,110 Kv Khopoli Davdi & Bhira Davdi Lines
+171,Loc. 42,18.545593,73.424322,110 Kv Khopoli Davdi & Bhira Davdi Lines
+172,Loc. 43,18.548031,73.424189,110 Kv Khopoli Davdi & Bhira Davdi Lines
+173,Loc. 44,18.550578,73.42405,110 Kv Khopoli Davdi & Bhira Davdi Lines
+174,Loc. 45,18.554687,73.423826,110 Kv Khopoli Davdi & Bhira Davdi Lines
+175,Loc. 46,18.557444,73.420452,110 Kv Khopoli Davdi & Bhira Davdi Lines
+176,Loc. 47,18.558689,73.418929,110 Kv Khopoli Davdi & Bhira Davdi Lines
+177,Loc. 48,18.559949,73.417386,110 Kv Khopoli Davdi & Bhira Davdi Lines
+178,Loc. 49,18.561546,73.415432,110 Kv Khopoli Davdi & Bhira Davdi Lines
+179,Loc. 50,18.564306,73.412054,110 Kv Khopoli Davdi & Bhira Davdi Lines
+180,Loc. 51,18.565508,73.410583,110 Kv Khopoli Davdi & Bhira Davdi Lines
+181,Loc. 52,18.566278,73.409641,110 Kv Khopoli Davdi & Bhira Davdi Lines
+182,Loc. 53,18.567488,73.40816,110 Kv Khopoli Davdi & Bhira Davdi Lines
+183,Loc. 54,18.570152,73.404899,110 Kv Khopoli Davdi & Bhira Davdi Lines
+184,Loc. 55,18.571893,73.402768,110 Kv Khopoli Davdi & Bhira Davdi Lines
+185,Loc. 56,18.573368,73.400962,110 Kv Khopoli Davdi & Bhira Davdi Lines
+186,Loc. 57,18.575064,73.398887,110 Kv Khopoli Davdi & Bhira Davdi Lines
+187,Loc. 58,18.576773,73.396794,110 Kv Khopoli Davdi & Bhira Davdi Lines
+188,Loc. 59,18.578241,73.394996,110 Kv Khopoli Davdi & Bhira Davdi Lines
+189,Loc. 60,18.579863,73.393011,110 Kv Khopoli Davdi & Bhira Davdi Lines
+190,Loc. 61,18.583136,73.393087,110 Kv Khopoli Davdi & Bhira Davdi Lines
+191,Loc. 62,18.584456,73.393118,110 Kv Khopoli Davdi & Bhira Davdi Lines
+192,Loc. 63,18.58767,73.393193,110 Kv Khopoli Davdi & Bhira Davdi Lines
+193,Loc. 64,18.592045,73.393275,110 Kv Khopoli Davdi & Bhira Davdi Lines
+194,Loc. 65,18.59466,73.3933,110 Kv Khopoli Davdi & Bhira Davdi Lines
+195,Loc. 66,18.597305,73.393326,110 Kv Khopoli Davdi & Bhira Davdi Lines
+196,Loc. 67,18.599176,73.393344,110 Kv Khopoli Davdi & Bhira Davdi Lines
+197,Loc. 68,18.600776,73.39336,110 Kv Khopoli Davdi & Bhira Davdi Lines
+198,Loc. 69,18.607542,73.393418,110 Kv Khopoli Davdi & Bhira Davdi Lines
+199,Loc. 70,18.610562,73.393445,110 Kv Khopoli Davdi & Bhira Davdi Lines
+200,Loc. 71,18.613029,73.393466,110 Kv Khopoli Davdi & Bhira Davdi Lines
+201,Loc. 72,18.614958,73.393483,110 Kv Khopoli Davdi & Bhira Davdi Lines
+202,Loc. 73,18.616741,73.393498,110 Kv Khopoli Davdi & Bhira Davdi Lines
+203,Loc. 74,18.620036,73.393527,110 Kv Khopoli Davdi & Bhira Davdi Lines
+204,Loc. 75,18.621689,73.39354,110 Kv Khopoli Davdi & Bhira Davdi Lines
+205,Loc. 76,18.623819,73.393556,110 Kv Khopoli Davdi & Bhira Davdi Lines
+206,Loc. 77,18.625535,73.39357,110 Kv Khopoli Davdi & Bhira Davdi Lines
+207,Loc. 78,18.6276,73.393586,110 Kv Khopoli Davdi & Bhira Davdi Lines
+208,Loc. 79,18.630342,73.393607,110 Kv Khopoli Davdi & Bhira Davdi Lines
+209,Loc. 80,18.638119,73.393668,110 Kv Khopoli Davdi & Bhira Davdi Lines
+210,Loc. 81,18.641142,73.393691,110 Kv Khopoli Davdi & Bhira Davdi Lines
+211,Loc. 82,18.643839,73.393422,110 Kv Khopoli Davdi & Bhira Davdi Lines
+212,Loc. 83,18.646094,73.393203,110 Kv Khopoli Davdi & Bhira Davdi Lines
+213,Loc. 84,18.647592,73.393057,110 Kv Khopoli Davdi & Bhira Davdi Lines
+214,Loc. 85,18.651604,73.392666,110 Kv Khopoli Davdi & Bhira Davdi Lines
+215,Loc. 86,18.655014,73.392334,110 Kv Khopoli Davdi & Bhira Davdi Lines
+216,Loc. 87,18.657367,73.392105,110 Kv Khopoli Davdi & Bhira Davdi Lines
+217,Loc. 88,18.658562,73.391989,110 Kv Khopoli Davdi & Bhira Davdi Lines
+218,Loc. 89,18.661827,73.391671,110 Kv Khopoli Davdi & Bhira Davdi Lines
+219,Loc. 90,18.664084,73.391453,110 Kv Khopoli Davdi & Bhira Davdi Lines
+220,Loc. 91,18.666351,73.391234,110 Kv Khopoli Davdi & Bhira Davdi Lines
+221,Loc. 92,18.668655,73.391011,110 Kv Khopoli Davdi & Bhira Davdi Lines
+222,Loc. 93,18.671912,73.390696,110 Kv Khopoli Davdi & Bhira Davdi Lines
+223,Loc. 94,18.673763,73.390518,110 Kv Khopoli Davdi & Bhira Davdi Lines
+224,Loc. 95,18.677,73.390205,110 Kv Khopoli Davdi & Bhira Davdi Lines
+225,Loc. 96,18.679008,73.390011,110 Kv Khopoli Davdi & Bhira Davdi Lines
+226,Loc. 97,18.680807,73.389837,110 Kv Khopoli Davdi & Bhira Davdi Lines
+227,Loc. 98,18.683277,73.389599,110 Kv Khopoli Davdi & Bhira Davdi Lines
+228,Loc. 99,18.685319,73.389401,110 Kv Khopoli Davdi & Bhira Davdi Lines
+229,Loc. 100,18.688146,73.389128,110 Kv Khopoli Davdi & Bhira Davdi Lines
+230,Loc. 101,18.691793,73.388776,110 Kv Khopoli Davdi & Bhira Davdi Lines
+231,Loc. 102,18.693926,73.38857,110 Kv Khopoli Davdi & Bhira Davdi Lines
+232,Loc. 103,18.696285,73.388342,110 Kv Khopoli Davdi & Bhira Davdi Lines
+233,Loc. 104,18.699137,73.388066,110 Kv Khopoli Davdi & Bhira Davdi Lines
+234,Loc. 105,18.701777,73.387811,110 Kv Khopoli Davdi & Bhira Davdi Lines
+235,Loc. 106,18.703831,73.387613,110 Kv Khopoli Davdi & Bhira Davdi Lines
+236,Loc. 107,18.705418,73.387459,110 Kv Khopoli Davdi & Bhira Davdi Lines
+237,Loc. 108,18.706796,73.387326,110 Kv Khopoli Davdi & Bhira Davdi Lines
+238,Loc. 109,18.708576,73.386651,110 Kv Khopoli Davdi & Bhira Davdi Lines
+239,Loc. 110,18.712073,73.385324,110 Kv Khopoli Davdi & Bhira Davdi Lines
+240,Loc. 123,18.737215,73.37578,110 Kv Khopoli Davdi & Bhira Davdi Lines
+241,Loc. 124,18.738201,73.375406,110 Kv Khopoli Davdi & Bhira Davdi Lines
+242,Loc. 125,18.73987,73.374773,110 Kv Khopoli Davdi & Bhira Davdi Lines
+243,Loc. 126,18.742036,73.37395,110 Kv Khopoli Davdi & Bhira Davdi Lines
+244,Loc. 127,18.744984,73.372831,110 Kv Khopoli Davdi & Bhira Davdi Lines
+245,Loc. 128,18.746199,73.37237,110 Kv Khopoli Davdi & Bhira Davdi Lines
+246,Loc. 129,18.747575,73.371296,110 Kv Khopoli Davdi & Bhira Davdi Lines
+247,Loc. 130,18.749215,73.370017,110 Kv Khopoli Davdi & Bhira Davdi Lines
+248,Loc. 131,18.7526,73.367376,110 Kv Khopoli Davdi & Bhira Davdi Lines
+249,Loc. 132,18.755213,73.365338,110 Kv Khopoli Davdi & Bhira Davdi Lines
+250,Loc. 133,18.758301,73.364365,110 Kv Khopoli Davdi & Bhira Davdi Lines
+251,Loc. 134,18.760409,73.363701,110 Kv Khopoli Davdi & Bhira Davdi Lines
+252,Loc. 135,18.768174,73.361256,110 Kv Khopoli Davdi & Bhira Davdi Lines
+253,Loc. 136,18.771432,73.359492,110 Kv Khopoli Davdi & Bhira Davdi Lines
+254,Loc. 137,18.772137,73.359111,110 Kv Khopoli Davdi & Bhira Davdi Lines
+255,Loc. 138,18.772302,73.359021,110 Kv Khopoli Davdi & Bhira Davdi Lines
+256,Loc. 139,18.77665,73.35669,110 Kv Khopoli Davdi & Bhira Davdi Lines
+257,Loc. 140,18.780497,73.35457,110 Kv Khopoli Davdi & Bhira Davdi Lines
+258,Loc. 141,18.780868,73.354602,110 Kv Khopoli Davdi & Bhira Davdi Lines
+259,A2 Str. Khopoli End,18.781143,73.354895,110 Kv Khopoli Davdi & Bhira Davdi Lines
+260,Loc. 18,18.490616,73.412077,110 Kv Khopoli Davdi & Bhira Davdi Lines
+261,Loc. 17,18.487855,73.411991,110 Kv Khopoli Davdi & Bhira Davdi Lines
+262,Loc. 16,18.483258,73.411848,110 Kv Khopoli Davdi & Bhira Davdi Lines
+263,Loc. 15,18.481885,73.411806,110 Kv Khopoli Davdi & Bhira Davdi Lines
+264,Loc. 14,18.480065,73.411749,110 Kv Khopoli Davdi & Bhira Davdi Lines
+265,Loc. 13,18.478587,73.411704,110 Kv Khopoli Davdi & Bhira Davdi Lines
+266,Loc. 12,18.4714,73.407631,110 Kv Khopoli Davdi & Bhira Davdi Lines
+267,Loc. 11,18.469937,73.407583,110 Kv Khopoli Davdi & Bhira Davdi Lines
+268,Loc. 10,18.467516,73.407503,110 Kv Khopoli Davdi & Bhira Davdi Lines
+269,Loc. 09,18.465058,73.407423,110 Kv Khopoli Davdi & Bhira Davdi Lines
+270,Loc. 08,18.464121,73.406183,110 Kv Khopoli Davdi & Bhira Davdi Lines
+271,Loc. 07,18.463011,73.404714,110 Kv Khopoli Davdi & Bhira Davdi Lines
+272,Loc. 06,18.461385,73.402564,110 Kv Khopoli Davdi & Bhira Davdi Lines
+273,Loc. 05,18.458895,73.399271,110 Kv Khopoli Davdi & Bhira Davdi Lines
+274,Loc. 04,18.45811,73.396413,110 Kv Khopoli Davdi & Bhira Davdi Lines
+275,Loc. 03,18.457677,73.39516,110 Kv Khopoli Davdi & Bhira Davdi Lines
+276,Loc. 02,18.457068,73.393828,110 Kv Khopoli Davdi & Bhira Davdi Lines
+277,Loc. 01,18.456024,73.390945,110 Kv Khopoli Davdi & Bhira Davdi Lines
+278,A2 Str. Bhira End,18.455185,73.390204,110 Kv Khopoli Davdi & Bhira Davdi Lines
+279,A2 Str At Waghivli,19.007574,73.058713,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+280,126,19.008312,73.05775,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+281,125,19.009765,73.055998,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+282,124,19.011139,73.054224,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+283,123,19.012941,73.051901,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+284,122,19.014354,73.050417,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+285,121,19.016123,73.048581,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+286,120,19.017822,73.046448,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+287,119,19.019496,73.044496,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+288,118,19.021678,73.042267,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+289,117,19.022631,73.040941,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+290,116,19.024758,73.038195,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+291,115,19.026903,73.035637,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+292,114,19.029595,73.033015,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+293,113,19.031221,73.031323,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+294,102,19.045178,73.014181,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+295,103,19.043971,73.015577,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+296,104,19.042808,73.016777,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+297,105,19.041531,73.018029,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+298,106,19.040455,73.01923,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+299,107,19.039782,73.020023,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+300,108,19.03836,73.021871,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+301,109,19.037081,73.023614,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+302,110,19.035587,73.025582,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+303,111,19.034402,73.027123,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+304,112,19.032922,73.029074,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+305,101,19.046656,73.012585,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+306,100,19.048263,73.010818,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+307,99,19.049921,73.009061,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+308,98,19.051367,73.007433,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+309,97,19.052997,73.005553,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+310,96,19.054575,73.003831,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+311,95,19.056008,73.002247,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+312,94,19.057075,73.001019,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+313,93,19.058352,72.999695,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+314,92,19.060019,72.997769,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+315,91,19.061371,72.996301,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+316,90,19.062067,72.995431,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+317,89,19.063262,72.994115,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+318,88,19.064129,72.993101,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+319,85,19.068682,72.987951,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+320,87,19.066067,72.990925,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+321,84,19.06989,72.986632,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+322,82,19.069454,72.983493,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+323,81,19.068667,72.981187,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+324,80,19.067045,72.976422,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+325,79,19.065231,72.971544,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+326,78,19.063621,72.966905,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+327,77,19.062014,72.962604,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+328,76,19.061158,72.960193,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+329,69,19.054435,72.944105,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+330,68,19.053363,72.940943,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+331,70,19.055255,72.946233,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+332,71,19.056289,72.948661,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+333,72,19.057169,72.951095,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+334,73,19.058059,72.9535,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+335,74,19.058968,72.956044,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+336,75,19.059967,72.958491,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+337,83,19.069404,72.984241,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+338,A2 str Mankhurd,19.052155,72.941248,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+339,A2 str Waghivli (110kV Waghivli Chembur),19.007527,73.058664,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+340,132,19.008056,73.057694,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+341,131,19.009776,73.05577,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+342,130,19.011294,73.053759,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+343,129,19.012789,73.05184,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+344,128,19.014252,73.050336,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+345,127,19.01595,73.048392,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+346,126,19.017783,73.046227,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+347,125,19.019593,73.044181,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+348,124,19.020756,73.043092,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+349,123,19.021824,73.0419,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+350,122,19.023383,73.039684,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+351,121,19.025422,73.037683,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+352,120,19.026919,73.035972,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+353,119,19.028344,73.034384,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+354,118,19.029547,73.032944,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+355,117,19.030753,73.031883,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+356,116,19.031355,73.031405,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+357,115,19.032346,73.030209,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+358,114,19.033103,73.029161,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+359,113,19.034486,73.027225,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+360,112,19.035877,73.025416,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+361,111,19.03717,73.023712,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+362,110,19.038493,73.021984,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+363,109,19.039885,73.020151,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+364,108,19.040828,73.019079,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+365,106,19.042788,73.017014,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+366,107,19.041777,73.018073,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+367,105,19.043961,73.015895,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+368,104,19.045325,73.014322,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+369,103,19.046792,73.012726,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+370,102,19.048359,73.010927,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+371,101,19.050054,73.009161,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+372,100,19.051516,73.007527,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+373,99,19.053148,73.0057,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+374,98,19.054554,73.004142,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+375,97,19.056141,73.002418,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+376,96,19.057279,73.001165,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+377,95,19.058479,72.999803,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+378,94,19.060174,72.997856,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+379,93,19.061466,72.996477,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+380,92,19.062164,72.995665,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+381,91,19.063396,72.99426,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+382,90,19.064317,72.993144,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+383,87,19.068835,72.988022,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+384,86,19.069969,72.986697,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+385,85,19.070082,72.984426,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+386,84,19.069902,72.983309,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+387,83,19.069106,72.981024,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+388,82,19.067413,72.976211,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+389,81,19.065672,72.971371,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+390,80,19.063973,72.966682,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+391,79,19.062434,72.962428,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+392,78,19.061543,72.960044,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+393,77,19.060981,72.959062,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+394,76,19.059877,72.955893,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+395,75,19.058824,72.953042,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+396,74,19.057688,72.949837,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+397,73,19.056968,72.947921,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+398,72,19.055428,72.946185,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+399,71,19.05454,72.943835,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+400,70,19.053267,72.940597,110Kv Waghivli Mankhurd (Blue) & 110Kv Waghivli Chembur (Yellow)
+401,Tata Power Bhokarpada,18.914142,73.198095,110Kv Bhokarpada Karanjade
+402,201A,18.914167,73.197222,110Kv Bhokarpada Karanjade
+403,200,18.916347,73.195925,110Kv Bhokarpada Karanjade
+404,194,18.930097,73.187711,110Kv Bhokarpada Karanjade
+405,190,18.93591,73.184186,110Kv Bhokarpada Karanjade
+406,189,18.937753,73.183081,110Kv Bhokarpada Karanjade
+407,188,18.939574,73.181975,110Kv Bhokarpada Karanjade
+408,187,18.941208,73.180994,110Kv Bhokarpada Karanjade
+409,186,18.943147,73.179825,110Kv Bhokarpada Karanjade
+410,185,18.945014,73.178711,110Kv Bhokarpada Karanjade
+411,184,18.946836,73.177619,110Kv Bhokarpada Karanjade
+412,183,18.948753,73.176481,110Kv Bhokarpada Karanjade
+413,182,18.950053,73.174741,110Kv Bhokarpada Karanjade
+414,181,18.951394,73.172911,110Kv Bhokarpada Karanjade
+415,180,18.952735,73.171082,110Kv Bhokarpada Karanjade
+416,179,18.953081,73.169708,110Kv Bhokarpada Karanjade
+417,178,18.953803,73.166575,110Kv Bhokarpada Karanjade
+418,177,18.954258,73.164706,110Kv Bhokarpada Karanjade
+419,176,18.954963,73.161798,110Kv Bhokarpada Karanjade
+420,175,18.955478,73.159611,110Kv Bhokarpada Karanjade
+421,174,18.956006,73.157431,110Kv Bhokarpada Karanjade
+422,173,18.956506,73.155333,110Kv Bhokarpada Karanjade
+423,172,18.957295,73.152034,110Kv Bhokarpada Karanjade
+424,171,18.958097,73.149397,110Kv Bhokarpada Karanjade
+425,170,18.958923,73.146674,110Kv Bhokarpada Karanjade
+426,167,18.962933,73.140861,110Kv Bhokarpada Karanjade
+427,166,18.964305,73.138876,110Kv Bhokarpada Karanjade
+428,165,18.965703,73.136832,110Kv Bhokarpada Karanjade
+429,164,18.967067,73.134858,110Kv Bhokarpada Karanjade
+430,163,18.96815,73.133306,110Kv Bhokarpada Karanjade
+431,162,18.969001,73.131553,110Kv Bhokarpada Karanjade
+432,161,18.970044,73.129351,110Kv Bhokarpada Karanjade
+433,160,18.97092,73.127443,110Kv Bhokarpada Karanjade
+434,159,18.971917,73.125222,110Kv Bhokarpada Karanjade
+435,155,18.975097,73.115586,110Kv Bhokarpada Karanjade
+436,154,18.975903,73.1131,110Kv Bhokarpada Karanjade
+437,153,18.976789,73.11035,110Kv Bhokarpada Karanjade
+438,152,18.977255,73.108879,110Kv Bhokarpada Karanjade
+439,Tata Power Karanjade,18.978712,73.105432,110Kv Bhokarpada Karanjade
+440,151N,18.978477,73.106116,110Kv Bhokarpada Karanjade
+441,199,18.918889,73.195973,110Kv Bhokarpada Karanjade
+442,198,18.921495,73.193735,110Kv Bhokarpada Karanjade
+443,197,18.924358,73.193477,110Kv Bhokarpada Karanjade
+444,196,18.925567,73.189988,110Kv Bhokarpada Karanjade
+445,138(Bhira karanjade 7 & 8),18.972186,73.123938,110Kv Bhokarpada Karanjade
+446,167,18.972603,73.122281,110Kv Bhokarpada Karanjade
+447,110kV Khopoli chembur line (Loc No. 166),18.973494,73.119719,110Kv Bhokarpada Karanjade
+448,166A,18.972981,73.121188,110Kv Bhokarpada Karanjade
+449,Khopoli karanjade (Loc No.165),18.974167,73.117473,110Kv Bhokarpada Karanjade
+450,Bhira Dharavi (Loc No. 134),18.974558,73.116844,110Kv Bhokarpada Karanjade
+451,191,18.934095,73.185268,110Kv Bhokarpada Karanjade
+452,192,18.933049,73.18563,110Kv Bhokarpada Karanjade
+453,193,18.932327,73.186332,110Kv Bhokarpada Karanjade
+454,Loc 20 of 110 kV Malad Versova Lines,19.155444,72.830459,Kml File For 110 Kv Malad Versova Lines (2)
+455,Loc 19 of 110 kV Malad Versova Line,19.158075,72.830986,Kml File For 110 Kv Malad Versova Lines (2)
+456,Loc 18 of 110 kV Malad Versova Line,19.160588,72.830925,Kml File For 110 Kv Malad Versova Lines (2)
+457,Loc 17 of 110 kV Malad Versova Line,19.163313,72.830634,Kml File For 110 Kv Malad Versova Lines (2)
+458,Loc 16 of 110 kV Malad Versova Line,19.166053,72.829378,Kml File For 110 Kv Malad Versova Lines (2)
+459,Loc 15 of 110 kV Malad Versova Line,19.168142,72.829049,Kml File For 110 Kv Malad Versova Lines (2)
+460,Loc 14 of 110 kV Malad Versova Line,19.170521,72.828918,Kml File For 110 Kv Malad Versova Lines (2)
+461,Loc 13 of 110 kV Malad Versova Line,19.172776,72.829702,Kml File For 110 Kv Malad Versova Lines (2)
+462,Loc 12 of 110 kV Malad Versova Line,19.174118,72.830184,Kml File For 110 Kv Malad Versova Lines (2)
+463,Loc. 10 of 110 kV Malad Versova Lines,19.176428,72.83098,Kml File For 110 Kv Malad Versova Lines (2)
+464,Loc. 09 of 110 kV Malad Versova Lines,19.179036,72.830865,Kml File For 110 Kv Malad Versova Lines (2)
+465,Loc. 8 of 110 kV Malad Versova Lines,19.181352,72.830009,Kml File For 110 Kv Malad Versova Lines (2)
+466,22O Kv BK 7 Gantry,18.454179,73.387652,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+467,GANTRY 220kV BK8,18.454783,73.387708,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+468,374,18.454416,73.387043,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+469,373,18.454441,73.384617,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+470,372,18.453856,73.3827,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+471,371,18.453115,73.380155,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+472,370,18.453763,73.377755,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+473,369,18.454403,73.375638,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+474,368,18.454083,73.373505,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+475,367,18.453424,73.369513,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+476,366,18.452835,73.36596,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+477,365,18.45361,73.363555,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+478,364,18.454482,73.360899,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+479,363,18.455669,73.357279,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+480,362,18.457138,73.355761,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+481,361,18.460373,73.352731,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+482,360,18.463037,73.350176,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+483,359,18.464932,73.348452,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+484,358,18.466935,73.346469,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+485,357,18.46891,73.344583,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+486,356,18.471437,73.342102,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+487,355,18.473802,73.339879,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+488,354,18.475521,73.338207,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+489,353,18.476669,73.337196,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+490,352,18.478149,73.335752,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+491,351,18.481132,73.331936,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+492,350,18.482441,73.330299,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+493,349,18.484438,73.327919,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+494,348,18.486847,73.324959,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+495,347,18.488906,73.322599,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+496,346,18.490331,73.320998,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+497,345,18.491845,73.319281,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+498,344,18.494036,73.318637,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+499,343,18.496875,73.317852,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+500,342,18.500567,73.316763,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+501,341,18.502628,73.316141,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+502,340,18.505775,73.31524,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+503,339,18.508442,73.314486,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+504,338,18.511048,73.313709,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+505,337,18.513326,73.313048,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+506,336,18.516047,73.312312,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+507,334,18.518755,73.311494,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+508,334,18.52094,73.310802,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+509,333,18.524033,73.309857,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+510,332,18.526486,73.309161,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+511,331,18.528402,73.308819,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+512,330,18.531911,73.308294,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+513,329,18.53507,73.307866,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+514,328,18.537691,73.307429,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+515,327,18.540396,73.307058,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+516,326,18.543603,73.306671,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+517,325,18.546539,73.306271,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+518,324,18.549025,73.305842,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+519,323,18.551366,73.305522,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+520,322,18.555024,73.304943,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+521,321,18.557897,73.304551,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+522,320,18.561373,73.304089,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+523,319,18.564688,73.303591,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+524,318,18.567524,73.303111,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+525,317,18.570823,73.302518,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+526,316,18.572738,73.302184,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+527,315,18.576188,73.301616,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+528,314,18.579959,73.300989,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+529,313,18.582865,73.300476,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+530,312,18.585275,73.300101,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+531,311,18.588889,73.299423,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+532,310,18.591123,73.299066,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+533,309,18.59375,73.298577,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+534,308,18.596601,73.298154,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+535,307,18.599588,73.297677,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+536,306,18.60232,73.297203,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+537,305,18.605514,73.296665,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+538,304,18.608109,73.296237,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+539,303,18.610714,73.295837,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+540,302,18.612944,73.295349,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+541,301,18.615878,73.294763,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+542,300,18.618632,73.294237,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+543,299,18.621278,73.293724,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+544,298,18.624091,73.293543,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+545,297,18.626981,73.293488,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+546,296,18.630199,73.293348,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+547,295,18.633142,73.293222,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+548,294,18.635389,73.293135,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+549,293,18.637866,73.294201,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+550,292,18.64005,73.295191,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+551,291,18.642458,73.296251,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+552,290,18.644885,73.297312,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+553,289,18.647577,73.298482,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+554,288,18.65028,73.299715,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+555,287,18.652687,73.300772,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+556,286,18.65509,73.301883,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+557,285,18.65754,73.301493,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+558,284,18.660336,73.301132,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+559,283,18.663377,73.300637,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+560,282,18.666288,73.300192,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+561,281,18.668139,73.300268,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+562,280,18.670713,73.300305,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+563,279,18.673397,73.300371,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+564,278,18.675924,73.300403,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+565,277,18.678088,73.300467,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+566,276,18.680068,73.300031,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+567,275,18.6824,73.299536,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+568,274,18.684968,73.298938,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+569,273,18.687484,73.298356,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+570,272,18.690493,73.297684,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+571,271,18.693065,73.297901,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+572,270,18.696528,73.298188,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+573,269,18.699863,73.298451,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+574,268,18.703342,73.299609,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+575,267,18.705767,73.300381,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+576,266,18.70965,73.301706,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+577,265,18.711784,73.302481,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+578,264,18.713779,73.302114,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+579,263,18.716783,73.301584,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+580,262,18.719613,73.301074,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+581,261,18.721509,73.300646,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+582,260,18.723381,73.299537,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+583,259,18.725533,73.298157,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+584,258,18.727166,73.297171,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+585,257,18.729984,73.295413,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+586,256,18.731724,73.294313,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+587,255,18.734323,73.293304,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+588,254,18.736377,73.292503,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+589,253,18.73872,73.291533,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+590,252,18.740891,73.290636,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+591,251,18.743214,73.289746,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+592,250,18.745573,73.288818,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+593,249,18.748203,73.287759,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+594,248,18.750554,73.28684,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+595,247,18.752853,73.285923,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+596,246,18.755519,73.285891,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+597,245,18.759181,73.285795,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+598,244,18.760998,73.285735,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+599,243,18.764085,73.285633,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+600,242,18.766787,73.286225,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+601,241,18.769746,73.286956,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+602,240,18.772358,73.287458,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+603,239,18.774929,73.288075,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+604,238,18.777967,73.288734,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+605,237,18.780661,73.289225,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+606,236,18.782644,73.289061,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+607,235,18.78527,73.289044,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+608,234,18.78717,73.288995,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+609,233,18.789691,73.288965,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+610,232,18.792331,73.288875,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+611,231,18.794642,73.28886,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+612,230,18.797309,73.288722,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+613,229,18.79956,73.287334,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+614,228,18.801265,73.286433,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+615,227,18.803327,73.28516,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+616,226,18.806337,73.283835,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+617,225,18.809239,73.282596,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+618,224,18.811894,73.282972,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+619,223,18.814611,73.283379,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+620,222,18.817138,73.283332,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+621,221,18.81783,73.280457,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+622,220,18.819522,73.279275,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+623,219,18.820961,73.27693,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+624,218,18.82244,73.2744,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+625,217,18.823609,73.27244,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+626,216,18.825417,73.269357,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+627,215,18.826165,73.267781,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+628,214,18.828371,73.264137,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+629,213,18.829865,73.261723,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+630,212,18.831301,73.259374,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+631,211,18.832694,73.257081,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+632,210,18.834707,73.253743,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+633,209,18.835754,73.253214,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+634,208,18.837635,73.251679,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+635,207,18.839352,73.250279,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+636,206,18.841898,73.248181,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+637,205,18.843971,73.246835,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+638,204,18.846209,73.245344,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+639,203,18.848725,73.243684,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+640,202,18.851136,73.242097,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+641,201,18.853439,73.240568,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+642,200,18.855704,73.239063,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+643,199,18.857733,73.237722,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+644,198,18.860373,73.235973,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+645,197,18.862768,73.234388,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+646,196,18.864556,73.233205,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+647,195,18.866998,73.231592,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+648,194,18.869315,73.230055,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+649,192,18.874287,73.226366,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+650,193,18.871758,73.228441,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+651,191,18.876931,73.224179,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+652,189,18.880698,73.221095,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+653,190,18.878682,73.222746,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+654,188,18.88275,73.219382,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+655,187,18.884909,73.217621,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+656,186,18.887319,73.215598,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+657,185,18.889024,73.214208,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+658,184,18.891459,73.212161,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+659,183,18.894168,73.209907,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+660,182,18.895752,73.208612,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+661,181,18.897987,73.206744,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+662,180,18.901396,73.204698,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+663,179,18.903524,73.203422,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+664,178,18.905912,73.201995,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+665,177,18.908256,73.200602,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+666,176,18.910857,73.199027,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+667,175,18.913587,73.197395,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+668,174,18.916499,73.195662,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+669,173,18.918767,73.194292,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+670,172,18.920958,73.192964,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+671,171,18.923259,73.191609,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+672,170,18.926192,73.189816,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+673,169,18.929208,73.188031,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+674,168,18.932064,73.186304,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+675,167,18.93418,73.185033,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+676,166,18.936463,73.18367,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+677,165,18.939432,73.181875,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+678,164,18.940964,73.180951,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+679,163,18.943278,73.179553,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+680,162,18.945522,73.178206,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+681,161,18.948669,73.176323,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+682,160,18.950195,73.174216,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+683,159,18.95258,73.170975,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+684,158,18.953196,73.168373,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+685,157,18.954033,73.164892,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+686,156,18.954646,73.162241,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+687,155,18.955113,73.160273,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+688,154,18.955791,73.157421,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+689,153,18.956349,73.155094,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+690,152,18.956935,73.152586,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+691,151,18.95741,73.151048,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+692,150,18.958185,73.148589,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+693,149,18.958825,73.146505,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+694,148,18.96001,73.144939,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+695,147,18.960969,73.143573,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+696,146,18.96168,73.14239,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+697,145,18.96323,73.140138,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+698,144,18.964856,73.137775,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+699,143,18.966469,73.135433,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+700,142,18.968012,73.133047,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+701,141,18.969084,73.130893,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+702,140,18.970407,73.128107,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+703,139,18.971748,73.125298,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+704,138,18.972143,73.123948,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+705,137,18.973032,73.121385,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+706,136,18.97363,73.119558,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+707,135,18.97434,73.117769,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+708,134,18.974482,73.116841,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+709,133,18.975101,73.115005,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+710,132,18.975799,73.112849,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+711,131,18.976606,73.109698,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+712,130,18.976782,73.108832,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+713,129,18.978083,73.105963,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+714,"220kV Gantry Karanjade side BK7,8",18.978264,73.105509,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+715,"220 kV Gantry BK 7,8",19.007472,73.057325,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+716,110 N,19.007693,73.057041,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+717,109N,19.009552,73.054984,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+718,108N,19.011383,73.052828,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+719,107N,19.013257,73.050729,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+720,106N2,19.015428,73.048399,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+721,106N1,19.017748,73.045973,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+722,105,19.020592,73.042792,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+723,104,19.021584,73.041621,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+724,103,19.023368,73.039679,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+725,102,19.024683,73.038128,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+726,101,19.026873,73.035588,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+727,100,19.02921,73.032942,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+728,99,19.030769,73.031588,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+729,98,19.032726,73.029019,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+730,97,19.034553,73.026596,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+731,96,19.036774,73.023683,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+732,95,19.038287,73.021668,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+733,94,19.040185,73.019129,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+734,93,19.041345,73.017983,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+735,92,19.042574,73.016674,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+736,91,19.044263,73.014933,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+737,90,19.046287,73.012654,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+738,89,19.048348,73.010375,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+739,88,19.050598,73.00788,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+740,87,19.05261,73.005699,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+741,86,19.054546,73.003543,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+742,85,19.056403,73.001483,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+743,84,19.058562,72.999055,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+744,83,19.060808,72.996588,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+745,82,19.062016,72.995208,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+746,81,19.064187,72.992775,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+747,80,19.06628,72.990344,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+748,79,19.068128,72.988269,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+749,78,19.069611,72.986573,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+750,77,19.068756,72.984312,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+751,76,19.067261,72.980055,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+752,75,19.064858,72.973482,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+753,74,19.062487,72.966836,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+754,73,19.060359,72.960955,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+755,72,19.059218,72.957732,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+756,71,19.057978,72.95431,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+757,70,19.056849,72.951223,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+758,68,19.055016,72.946154,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+759,67,19.054172,72.943797,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+760,66,19.053074,72.940787,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+761,65,19.052165,72.938233,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+762,69,19.055874,72.948514,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+763,64,19.051035,72.935029,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+764,63,19.050415,72.933392,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+765,Mankhurd TATA POWER 110KV Station,19.052298,72.941149,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+766,TATA Power Waghivali substation,19.007449,73.058935,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+767,TATA POWER KARANJADE,18.978816,73.105446,"220 Kv Bhira Karanjade Line 7&8 + Wd7,8"
+768,199,19.221872,73.117086,110Kv Kalwa Kalyan Line
+769,198,19.219797,73.116175,110Kv Kalwa Kalyan Line
+770,197,19.217917,73.115376,110Kv Kalwa Kalyan Line
+771,196,19.216007,73.114477,110Kv Kalwa Kalyan Line
+772,195,19.213881,73.113537,110Kv Kalwa Kalyan Line
+773,194,19.212095,73.112769,110Kv Kalwa Kalyan Line
+774,193,19.210272,73.111931,110Kv Kalwa Kalyan Line
+775,192,19.208736,73.110425,110Kv Kalwa Kalyan Line
+776,191,19.207583,73.109258,110Kv Kalwa Kalyan Line
+777,190,19.205804,73.107537,110Kv Kalwa Kalyan Line
+778,189,19.204336,73.106014,110Kv Kalwa Kalyan Line
+779,188,19.202828,73.104503,110Kv Kalwa Kalyan Line
+780,187,19.20126,73.102979,110Kv Kalwa Kalyan Line
+781,186,19.199752,73.101433,110Kv Kalwa Kalyan Line
+782,185,19.198391,73.100047,110Kv Kalwa Kalyan Line
+783,184,19.196793,73.098177,110Kv Kalwa Kalyan Line
+784,183,19.195317,73.096406,110Kv Kalwa Kalyan Line
+785,182,19.194013,73.094845,110Kv Kalwa Kalyan Line
+786,181,19.192768,73.093358,110Kv Kalwa Kalyan Line
+787,180,19.190901,73.092301,110Kv Kalwa Kalyan Line
+788,179,19.189227,73.091581,110Kv Kalwa Kalyan Line
+789,178,19.186682,73.091528,110Kv Kalwa Kalyan Line
+790,177 A,19.185326,73.090737,110Kv Kalwa Kalyan Line
+791,177,19.183947,73.089943,110Kv Kalwa Kalyan Line
+792,176,19.182273,73.08935,110Kv Kalwa Kalyan Line
+793,175,19.181449,73.089003,110Kv Kalwa Kalyan Line
+794,174A,19.181261,73.087889,110Kv Kalwa Kalyan Line
+795,174,19.181029,73.086578,110Kv Kalwa Kalyan Line
+796,173,19.17957,73.085659,110Kv Kalwa Kalyan Line
+797,165,19.167103,73.076594,110Kv Kalwa Kalyan Line
+798,164,19.166082,73.075217,110Kv Kalwa Kalyan Line
+799,163,19.164611,73.073183,110Kv Kalwa Kalyan Line
+800,162,19.163253,73.07136,110Kv Kalwa Kalyan Line
+801,161,19.163176,73.069295,110Kv Kalwa Kalyan Line
+802,160,19.163122,73.067708,110Kv Kalwa Kalyan Line
+803,159,19.163033,73.065663,110Kv Kalwa Kalyan Line
+804,158,19.162968,73.063807,110Kv Kalwa Kalyan Line
+805,157,19.162881,73.06164,110Kv Kalwa Kalyan Line
+806,156,19.162805,73.059565,110Kv Kalwa Kalyan Line
+807,155,19.162716,73.057231,110Kv Kalwa Kalyan Line
+808,154,19.162634,73.055146,110Kv Kalwa Kalyan Line
+809,153,19.162521,73.053056,110Kv Kalwa Kalyan Line
+810,152,19.162408,73.050721,110Kv Kalwa Kalyan Line
+811,151,19.162332,73.049182,110Kv Kalwa Kalyan Line
+812,150,19.162188,73.04696,110Kv Kalwa Kalyan Line
+813,149,19.16205,73.0448,110Kv Kalwa Kalyan Line
+814,147,19.161879,73.0415,110Kv Kalwa Kalyan Line
+815,146,19.163146,73.03932,110Kv Kalwa Kalyan Line
+816,145,19.164286,73.037422,110Kv Kalwa Kalyan Line
+817,144,19.165419,73.035555,110Kv Kalwa Kalyan Line
+818,143,19.166541,73.033694,110Kv Kalwa Kalyan Line
+819,142,19.167689,73.03176,110Kv Kalwa Kalyan Line
+820,141,19.168926,73.029665,110Kv Kalwa Kalyan Line
+821,140,19.170108,73.027662,110Kv Kalwa Kalyan Line
+822,138,19.172188,73.024213,110Kv Kalwa Kalyan Line
+823,139,19.171165,73.025918,110Kv Kalwa Kalyan Line
+824,137,19.172311,73.022938,110Kv Kalwa Kalyan Line
+825,136,19.172688,73.021193,110Kv Kalwa Kalyan Line
+826,135,19.173175,73.018869,110Kv Kalwa Kalyan Line
+827,148,19.16192,73.042837,110Kv Kalwa Kalyan Line
+828,134,19.173831,73.016334,110Kv Kalwa Kalyan Line
+829,133,19.17406,73.015352,110Kv Kalwa Kalyan Line
+830,132,19.173475,73.013314,110Kv Kalwa Kalyan Line
+831,131,19.172984,73.011832,110Kv Kalwa Kalyan Line
+832,130,19.172968,73.011412,110Kv Kalwa Kalyan Line
+833,129,19.172797,73.007375,110Kv Kalwa Kalyan Line
+834,128,19.172669,73.005039,110Kv Kalwa Kalyan Line
+835,127,19.172583,73.003157,110Kv Kalwa Kalyan Line
+836,126,19.172242,73.000894,110Kv Kalwa Kalyan Line
+837,125,19.171927,72.998857,110Kv Kalwa Kalyan Line
+838,124,19.171726,72.997511,110Kv Kalwa Kalyan Line
+839,43,19.171543,72.99711,110Kv Kalwa Kalyan Line
+840,168,19.171283,73.080811,110Kv Kalwa Kalyan Line
+841,166,19.168343,73.078153,110Kv Kalwa Kalyan Line
+842,167,19.169675,73.079833,110Kv Kalwa Kalyan Line
+843,169,19.172867,73.081745,110Kv Kalwa Kalyan Line
+844,170,19.174514,73.082711,110Kv Kalwa Kalyan Line
+845,171,19.176215,73.083703,110Kv Kalwa Kalyan Line
+846,172,19.177822,73.084651,110Kv Kalwa Kalyan Line
+847,200,19.222936,73.117571,110Kv Kalwa Kalyan Line
+848,Loc 1,19.223948,73.118524,110Kv Chola Kalyan
+849,Loc 1A,19.224074,73.118321,110Kv Chola Kalyan
+850,Loc 2,19.224382,73.1163,110Kv Chola Kalyan
+851,Loc 3,19.224228,73.114603,110Kv Chola Kalyan
+852,Loc 4,19.224336,73.113,110Kv Chola Kalyan
+853,Loc 5,19.224461,73.111014,110Kv Chola Kalyan
+854,Loc 6,19.224626,73.109179,110Kv Chola Kalyan
+855,Loc 7,19.224689,73.107478,110Kv Chola Kalyan
+856,Loc 8,19.224806,73.105867,110Kv Chola Kalyan
+857,Loc 9,19.224917,73.104253,110Kv Chola Kalyan
+858,Loc 10,19.225019,73.102792,110Kv Chola Kalyan
+859,LOC 11,19.225119,73.101133,110Kv Chola Kalyan
+860,Loc 12,19.2252,73.099992,110Kv Chola Kalyan
+861,Loc 13,19.226347,73.099628,110Kv Chola Kalyan
+862,Loc 14,19.227486,73.099056,110Kv Chola Kalyan
+863,Loc 15,19.228697,73.098175,110Kv Chola Kalyan
+864,loc. 1,18.453881,73.391512,220Kv Bpsu Lines
+865,loc. 2,18.454197,73.389164,220Kv Bpsu Lines
+866,Loc 1B,19.22422,73.118196,110Kv Chola Kalyan 2
+867,Loc 2,19.224394,73.116281,110Kv Chola Kalyan 2
+868,Loc 3,19.224472,73.114883,110Kv Chola Kalyan 2
+869,Loc 4,19.224597,73.113097,110Kv Chola Kalyan 2
+870,Loc 5,19.224722,73.111311,110Kv Chola Kalyan 2
+871,Loc 6,19.224817,73.109836,110Kv Chola Kalyan 2
+872,Loc 7,19.225006,73.107089,110Kv Chola Kalyan 2
+873,Loc 8,19.225131,73.105342,110Kv Chola Kalyan 2
+874,Loc 9,19.225225,73.103744,110Kv Chola Kalyan 2
+875,Loc 10,19.225344,73.102078,110Kv Chola Kalyan 2
+876,Loc 11,19.225433,73.100692,110Kv Chola Kalyan 2
+877,Loc 12,19.2257,73.100308,110Kv Chola Kalyan 2
+878,Loc 13,19.226373,73.099627,110Kv Chola Kalyan 2
+879,Loc 14,19.227481,73.099064,110Kv Chola Kalyan 2
+880,Loc 15,19.228682,73.09821,110Kv Chola Kalyan 2
+881,Gantry Str. Salsette End,19.155289,72.93345,220 Kv Kalwa Salsette Lines
+882,Loc. 01,19.155217,72.934166,220 Kv Kalwa Salsette Lines
+883,Loc. 2,19.155064,72.935242,220 Kv Kalwa Salsette Lines
+884,Loc. 3,19.154774,72.936211,220 Kv Kalwa Salsette Lines
+885,Loc. 4,19.154152,72.937974,220 Kv Kalwa Salsette Lines
+886,Loc. 5,19.153505,72.939495,220 Kv Kalwa Salsette Lines
+887,Loc. 6,19.152996,72.940713,220 Kv Kalwa Salsette Lines
+888,Loc. 7,19.151504,72.942336,220 Kv Kalwa Salsette Lines
+889,Loc. 8,19.14989,72.944536,220 Kv Kalwa Salsette Lines
+890,Loc. 9,19.148808,72.945815,220 Kv Kalwa Salsette Lines
+891,Loc. 10,19.147678,72.947125,220 Kv Kalwa Salsette Lines
+892,Loc. 11,19.146664,72.947395,220 Kv Kalwa Salsette Lines
+893,Loc. 12,19.147322,72.94813,220 Kv Kalwa Salsette Lines
+894,Loc. 13,19.14915,72.950078,220 Kv Kalwa Salsette Lines
+895,Loc. 14,19.150636,72.951689,220 Kv Kalwa Salsette Lines
+896,Loc. 15,19.152473,72.953675,220 Kv Kalwa Salsette Lines
+897,Loc. 16,19.154369,72.955709,220 Kv Kalwa Salsette Lines
+898,Loc. 17,19.155766,72.956954,220 Kv Kalwa Salsette Lines
+899,Loc. 19,19.158037,72.959698,220 Kv Kalwa Salsette Lines
+900,Loc. 20,19.160152,72.961968,220 Kv Kalwa Salsette Lines
+901,Loc. 21,19.162017,72.963982,220 Kv Kalwa Salsette Lines
+902,Loc. 22,19.163908,72.966035,220 Kv Kalwa Salsette Lines
+903,Loc. 23,19.165809,72.968074,220 Kv Kalwa Salsette Lines
+904,Loc. 24,19.167712,72.970133,220 Kv Kalwa Salsette Lines
+905,Loc. 18,19.157591,72.958358,220 Kv Kalwa Salsette Lines
+906,Loc. 25,19.168098,72.972623,220 Kv Kalwa Salsette Lines
+907,Loc. 26,19.168404,72.974765,220 Kv Kalwa Salsette Lines
+908,Loc. 27,19.1688,72.977274,220 Kv Kalwa Salsette Lines
+909,Loc. 28,19.169252,72.980128,220 Kv Kalwa Salsette Lines
+910,Loc. 29,19.169958,72.984683,220 Kv Kalwa Salsette Lines
+911,Loc. 30,19.170376,72.987557,220 Kv Kalwa Salsette Lines
+912,Loc. 31,19.170671,72.989455,220 Kv Kalwa Salsette Lines
+913,Loc. 32,19.171139,72.992215,220 Kv Kalwa Salsette Lines
+914,Loc. 33,19.17006,72.992469,220 Kv Kalwa Salsette Lines
+915,Loc. 34,19.169081,72.992747,220 Kv Kalwa Salsette Lines
+916,Gantry Structure Kalwa end,19.168457,72.993056,220 Kv Kalwa Salsette Lines
+917,sal-saki  3,19.153908,72.930762,Salshet To Saki Combined Kml
+918,sal-saki  4,19.154045,72.930718,Salshet To Saki Combined Kml
+919,TOWER NO-02,19.154863,72.933917,Salshet To Saki Combined Kml
+920,TOWER NO-03,19.154849,72.933285,Salshet To Saki Combined Kml
+921,TOWER NO-01,19.155576,72.933475,Salshet To Saki Combined Kml
+922,TOWER NO-02,19.155619,72.932917,Salshet To Saki Combined Kml
+923,TOWER NO-03,19.155763,72.931235,Salshet To Saki Combined Kml
+924,TOWER NO-04,19.155049,72.931472,Salshet To Saki Combined Kml
+925,TOWER NO-05,19.154897,72.93101,Salshet To Saki Combined Kml
+926,TOWER NO-06,19.153857,72.930376,Salshet To Saki Combined Kml
+927,TOWER NO-07,19.152221,72.928898,Salshet To Saki Combined Kml
+928,TOWER NO-08,19.150894,72.927658,Salshet To Saki Combined Kml
+929,TOWER NO-09,19.149392,72.926285,Salshet To Saki Combined Kml
+930,TOWER NO-10,19.147754,72.924793,Salshet To Saki Combined Kml
+931,TOWER NO-11,19.14684,72.923954,Salshet To Saki Combined Kml
+932,TOWER NO-12,19.145866,72.92306,Salshet To Saki Combined Kml
+933,TOWER NO-13,19.145029,72.921555,Salshet To Saki Combined Kml
+934,TOWER NO-14,19.143996,72.919688,Salshet To Saki Combined Kml
+935,TOWER NO-15,19.143414,72.918638,Salshet To Saki Combined Kml
+936,TOWER NO-16,19.142484,72.917316,Salshet To Saki Combined Kml
+937,TOWER NO-17,19.141113,72.915398,Salshet To Saki Combined Kml
+938,TOWER NO-18,19.139485,72.913081,Salshet To Saki Combined Kml
+939,TOWER NO-19,19.139547,72.91284,Salshet To Saki Combined Kml
+940,TOWER NO-20,19.139782,72.909993,Salshet To Saki Combined Kml
+941,TOWER NO-21,19.139025,72.908903,Salshet To Saki Combined Kml
+942,TOWER NO-22,19.138431,72.906619,Salshet To Saki Combined Kml
+943,TOWER NO-22A,19.138033,72.905666,Salshet To Saki Combined Kml
+944,TOWER NO-22B,19.137973,72.905538,Salshet To Saki Combined Kml
+945,TOWER NO-23,19.137181,72.90388,Salshet To Saki Combined Kml
+946,TOWER NO-24,19.136119,72.901479,Salshet To Saki Combined Kml
+947,TOWER NO-26,19.135981,72.901076,Salshet To Saki Combined Kml
+948,TOWER NO-27,19.135694,72.900078,Salshet To Saki Combined Kml
+949,TOWER NO-28,19.135283,72.89864,Salshet To Saki Combined Kml
+950,TOWER NO-29,19.135288,72.897098,Salshet To Saki Combined Kml
+951,TOWER NO-30,19.134134,72.894915,Salshet To Saki Combined Kml
+952,TOWER NO-31,19.133191,72.893569,Salshet To Saki Combined Kml
+953,TOWER NO-32,19.132288,72.89229,Salshet To Saki Combined Kml
+954,TOWER NO-33,19.130961,72.890406,Salshet To Saki Combined Kml
+955,TOWER NO-34,19.12932,72.890109,Salshet To Saki Combined Kml
+956,TOWER NO-35,19.128242,72.889288,Salshet To Saki Combined Kml
+957,TOWER NO-36,19.126786,72.88905,Salshet To Saki Combined Kml
+958,TOWER NO-37,19.124551,72.888838,Salshet To Saki Combined Kml
+959,TOWER NO-38,19.122567,72.8886,Salshet To Saki Combined Kml
+960,TOWER NO-39,19.120297,72.888344,Salshet To Saki Combined Kml
+961,TOWER NO-40,19.118427,72.888115,Salshet To Saki Combined Kml
+962,TOWER NO-41,19.117223,72.887968,Salshet To Saki Combined Kml
+963,TOWER NO-42,19.115185,72.887715,Salshet To Saki Combined Kml
+964,TOWER NO-43,19.113316,72.887498,Salshet To Saki Combined Kml
+965,Loc. 457,18.454612,73.383867,110 Kv Bhira Khopoli Line 2
+966,Loc. 458,18.454928,73.384638,110 Kv Bhira Khopoli Line 2
+967,Loc. 459A,18.455496,73.388861,110 Kv Bhira Khopoli Line 2
+968,Loc. 459,18.455,73.387023,110 Kv Bhira Khopoli Line 2
+969,Loc. 456,18.453957,73.382761,110 Kv Bhira Khopoli Line 2
+970,Loc. 455,18.453118,73.380099,110 Kv Bhira Khopoli Line 2
+971,Loc. 454,18.453246,73.379118,110 Kv Bhira Khopoli Line 2
+972,Loc. 453,18.453423,73.377824,110 Kv Bhira Khopoli Line 2
+973,Loc. 450,18.453438,73.370482,110 Kv Bhira Khopoli Line 2
+974,Loc. 442,18.45993,73.352882,110 Kv Bhira Khopoli Line 2
+975,Loc. 444,18.455522,73.357095,110 Kv Bhira Khopoli Line 2
+976,Loc. 446,18.454266,73.360957,110 Kv Bhira Khopoli Line 2
+977,Loc. 440,18.463048,73.35001,110 Kv Bhira Khopoli Line 2
+978,Loc. 436,18.470954,73.342448,110 Kv Bhira Khopoli Line 2
+979,Loc. 434,18.473647,73.339844,110 Kv Bhira Khopoli Line 2
+980,Loc. 433,18.475259,73.338255,110 Kv Bhira Khopoli Line 2
+981,Loc. 432,18.476597,73.336961,110 Kv Bhira Khopoli Line 2
+982,Loc. 431,18.47783,73.335724,110 Kv Bhira Khopoli Line 2
+983,Loc. 428,18.483645,73.328652,110 Kv Bhira Khopoli Line 2
+984,Loc. 429,18.482111,73.330505,110 Kv Bhira Khopoli Line 2
+985,Loc. 426,18.486765,73.324785,110 Kv Bhira Khopoli Line 2
+986,Loc. 425,18.488458,73.322826,110 Kv Bhira Khopoli Line 2
+987,Loc. 422,18.491812,73.318995,110 Kv Bhira Khopoli Line 2
+988,Loc. 421,18.494232,73.318365,110 Kv Bhira Khopoli Line 2
+989,Loc. 416,18.503422,73.315734,110 Kv Bhira Khopoli Line 2
+990,Loc. 417,18.50127,73.316299,110 Kv Bhira Khopoli Line 2
+991,Loc. 420,18.495912,73.317886,110 Kv Bhira Khopoli Line 2
+992,Loc. 415,18.505728,73.315054,110 Kv Bhira Khopoli Line 2
+993,Loc. 411,18.516054,73.312116,110 Kv Bhira Khopoli Line 2
+994,Loc. 409,18.5195,73.311072,110 Kv Bhira Khopoli Line 2
+995,Loc. 408,18.520799,73.310641,110 Kv Bhira Khopoli Line 2
+996,Loc. 405,18.526782,73.308815,110 Kv Bhira Khopoli Line 2
+997,Loc. 404,18.52874,73.308531,110 Kv Bhira Khopoli Line 2
+998,Loc. 396,18.546641,73.306055,110 Kv Bhira Khopoli Line 2
+999,Loc. 397,18.544514,73.306352,110 Kv Bhira Khopoli Line 2
+1000,Loc. 403,18.530976,73.308189,110 Kv Bhira Khopoli Line 2
+1001,Loc. 395,18.549093,73.305671,110 Kv Bhira Khopoli Line 2
+1002,Loc. 394,18.551487,73.305333,110 Kv Bhira Khopoli Line 2
+1003,Loc. 393,18.554565,73.304812,110 Kv Bhira Khopoli Line 2
+1004,Loc. 391,18.558795,73.304284,110 Kv Bhira Khopoli Line 2
+1005,Loc. 390,18.561347,73.303852,110 Kv Bhira Khopoli Line 2
+1006,Loc. 389,18.563393,73.303624,110 Kv Bhira Khopoli Line 2
+1007,Loc. 388,18.565804,73.303271,110 Kv Bhira Khopoli Line 2
+1008,Loc. 387,18.56807,73.302857,110 Kv Bhira Khopoli Line 2
+1009,Loc. 386,18.570421,73.302396,110 Kv Bhira Khopoli Line 2
+1010,Loc. 383,18.577056,73.301306,110 Kv Bhira Khopoli Line 2
+1011,Loc. 382,18.579488,73.300876,110 Kv Bhira Khopoli Line 2
+1012,Loc. 373,18.597759,73.297726,110 Kv Bhira Khopoli Line 2
+1013,Loc. 372,18.599932,73.297362,110 Kv Bhira Khopoli Line 2
+1014,Loc. 368,18.608572,73.295978,110 Kv Bhira Khopoli Line 2
+1015,Loc. 367,18.610773,73.295613,110 Kv Bhira Khopoli Line 2
+1016,Loc. 365,18.614913,73.294779,110 Kv Bhira Khopoli Line 2
+1017,Loc. 362,18.621368,73.29355,110 Kv Bhira Khopoli Line 2
+1018,Loc. 361,18.623383,73.293457,110 Kv Bhira Khopoli Line 2
+1019,Loc. 357,18.633293,73.292969,110 Kv Bhira Khopoli Line 2
+1020,Loc. 354,18.63916,73.294587,110 Kv Bhira Khopoli Line 2
+1021,Loc. 353,18.641143,73.295465,110 Kv Bhira Khopoli Line 2
+1022,Loc. 352,18.643077,73.296283,110 Kv Bhira Khopoli Line 2
+1023,Loc. 351,18.644881,73.297282,110 Kv Bhira Khopoli Line 2
+1024,Loc. 348,18.651003,73.299748,110 Kv Bhira Khopoli Line 2
+1025,Loc. 339,18.670189,73.300042,110 Kv Bhira Khopoli Line 2
+1026,Loc. 337,18.673315,73.300228,110 Kv Bhira Khopoli Line 2
+1027,Loc. 335,18.678199,73.300207,110 Kv Bhira Khopoli Line 2
+1028,Loc. 333,18.682944,73.299167,110 Kv Bhira Khopoli Line 2
+1029,Loc. 332,18.684996,73.29869,110 Kv Bhira Khopoli Line 2
+1030,Loc. 330,18.688812,73.29792,110 Kv Bhira Khopoli Line 2
+1031,Loc. 328,18.692653,73.29766,110 Kv Bhira Khopoli Line 2
+1032,Loc. 323,18.701456,73.298711,110 Kv Bhira Khopoli Line 2
+1033,Loc. 322,18.703855,73.299555,110 Kv Bhira Khopoli Line 2
+1034,Loc. 321,18.705937,73.300289,110 Kv Bhira Khopoli Line 2
+1035,Loc. 313,18.723382,73.299151,110 Kv Bhira Khopoli Line 2
+1036,Loc. 312,18.725879,73.297666,110 Kv Bhira Khopoli Line 2
+1037,Loc. 309,18.731663,73.294082,110 Kv Bhira Khopoli Line 2
+1038,Loc. 308,18.733839,73.293224,110 Kv Bhira Khopoli Line 2
+1039,Loc. 306,18.737729,73.291763,110 Kv Bhira Khopoli Line 2
+1040,Loc. 305,18.74002,73.290866,110 Kv Bhira Khopoli Line 2
+1041,Loc. 303,18.744196,73.289149,110 Kv Bhira Khopoli Line 2
+1042,Loc. 301,18.748594,73.287429,110 Kv Bhira Khopoli Line 2
+1043,Loc. 296,18.75955,73.285534,110 Kv Bhira Khopoli Line 2
+1044,Loc. 295,18.761546,73.285481,110 Kv Bhira Khopoli Line 2
+1045,Loc. 294,18.763779,73.285416,110 Kv Bhira Khopoli Line 2
+1046,Loc. 293,18.766022,73.285782,110 Kv Bhira Khopoli Line 2
+1047,Loc. 291,18.770456,73.286723,110 Kv Bhira Khopoli Line 2
+1048,Loc. 290,18.772525,73.287322,110 Kv Bhira Khopoli Line 2
+1049,Loc. 287,18.778564,73.288711,110 Kv Bhira Khopoli Line 2
+1050,Loc. 172,18.781858,73.290545,110 Kv Bhira Khopoli Line 2
+1051,Loc. 237,18.780669,73.289366,110 Kv Bhira Khopoli Line 2
+1052,Loc. 288,18.776885,73.28832,110 Kv Bhira Khopoli Line 2
+1053,Loc. 289,18.774627,73.287807,110 Kv Bhira Khopoli Line 2
+1054,Loc. 292,18.768285,73.286131,110 Kv Bhira Khopoli Line 2
+1055,Loc. 297,18.757472,73.285591,110 Kv Bhira Khopoli Line 2
+1056,Loc. 300,18.750823,73.286532,110 Kv Bhira Khopoli Line 2
+1057,Loc. 298,18.755451,73.285689,110 Kv Bhira Khopoli Line 2
+1058,Loc. 299,18.753539,73.285674,110 Kv Bhira Khopoli Line 2
+1059,Loc. 302,18.746016,73.288422,110 Kv Bhira Khopoli Line 2
+1060,Loc. 304,18.74249,73.28975,110 Kv Bhira Khopoli Line 2
+1061,Loc. 307,18.736122,73.292466,110 Kv Bhira Khopoli Line 2
+1062,Loc. 310,18.730074,73.295075,110 Kv Bhira Khopoli Line 2
+1063,Loc. 311,18.728213,73.296153,110 Kv Bhira Khopoli Line 2
+1064,Loc. 315,18.719336,73.300799,110 Kv Bhira Khopoli Line 2
+1065,Loc. 314,18.721384,73.300424,110 Kv Bhira Khopoli Line 2
+1066,Loc. 316,18.716219,73.301543,110 Kv Bhira Khopoli Line 2
+1067,Loc. 317,18.713915,73.302015,110 Kv Bhira Khopoli Line 2
+1068,Loc. 318,18.711813,73.302306,110 Kv Bhira Khopoli Line 2
+1069,Loc. 320,18.707596,73.300788,110 Kv Bhira Khopoli Line 2
+1070,Loc. 319,18.70984,73.301576,110 Kv Bhira Khopoli Line 2
+1071,Loc. 325,18.698074,73.298046,110 Kv Bhira Khopoli Line 2
+1072,Loc. 324,18.699826,73.298152,110 Kv Bhira Khopoli Line 2
+1073,Loc. 326,18.696154,73.297889,110 Kv Bhira Khopoli Line 2
+1074,Loc. 347,18.653152,73.300702,110 Kv Bhira Khopoli Line 2
+1075,Loc. 346,18.65522,73.301649,110 Kv Bhira Khopoli Line 2
+1076,Loc. 345,18.657312,73.301332,110 Kv Bhira Khopoli Line 2
+1077,Loc. 342,18.663543,73.300394,110 Kv Bhira Khopoli Line 2
+1078,Loc. 341,18.666259,73.300095,110 Kv Bhira Khopoli Line 2
+1079,Loc. 340,18.668168,73.300148,110 Kv Bhira Khopoli Line 2
+1080,Loc. 349,18.648667,73.298712,110 Kv Bhira Khopoli Line 2
+1081,Loc. 350,18.646714,73.297858,110 Kv Bhira Khopoli Line 2
+1082,Loc. 356,18.63535,73.292852,110 Kv Bhira Khopoli Line 2
+1083,Loc. 360,18.626131,73.293342,110 Kv Bhira Khopoli Line 2
+1084,Loc. 338,18.672028,73.300092,110 Kv Bhira Khopoli Line 2
+1085,Loc. 336,18.675969,73.300129,110 Kv Bhira Khopoli Line 2
+1086,Loc. 334,18.680065,73.300023,110 Kv Bhira Khopoli Line 2
+1087,Loc. 331,18.687519,73.298145,110 Kv Bhira Khopoli Line 2
+1088,Loc. 329,18.690081,73.297367,110 Kv Bhira Khopoli Line 2
+1089,Loc. 343,18.66133,73.300712,110 Kv Bhira Khopoli Line 2
+1090,Loc. 344,18.659495,73.301029,110 Kv Bhira Khopoli Line 2
+1091,Loc. 355,18.637272,73.293728,110 Kv Bhira Khopoli Line 2
+1092,Loc. 358,18.63077,73.293074,110 Kv Bhira Khopoli Line 2
+1093,Loc. 359,18.628321,73.293188,110 Kv Bhira Khopoli Line 2
+1094,Loc. 363,18.619293,73.293932,110 Kv Bhira Khopoli Line 2
+1095,Loc. 364,18.617061,73.294374,110 Kv Bhira Khopoli Line 2
+1096,Loc. 366,18.612967,73.295085,110 Kv Bhira Khopoli Line 2
+1097,Loc. 369,18.606456,73.296362,110 Kv Bhira Khopoli Line 2
+1098,Loc. 370,18.604207,73.296705,110 Kv Bhira Khopoli Line 2
+1099,Loc. 371,18.602074,73.297031,110 Kv Bhira Khopoli Line 2
+1100,Loc. 381,18.580757,73.300663,110 Kv Bhira Khopoli Line 2
+1101,Loc. 380,18.582803,73.300266,110 Kv Bhira Khopoli Line 2
+1102,Loc. 379,18.584829,73.299959,110 Kv Bhira Khopoli Line 2
+1103,Loc. 378,18.587333,73.299488,110 Kv Bhira Khopoli Line 2
+1104,Loc. 377,18.589118,73.299194,110 Kv Bhira Khopoli Line 2
+1105,Loc. 376,18.590659,73.298856,110 Kv Bhira Khopoli Line 2
+1106,Loc. 374,18.595925,73.298049,110 Kv Bhira Khopoli Line 2
+1107,Loc. 327,18.694684,73.297585,110 Kv Bhira Khopoli Line 2
+1108,Loc. 375,18.593508,73.298486,110 Kv Bhira Khopoli Line 2
+1109,Loc. 384,18.574378,73.301762,110 Kv Bhira Khopoli Line 2
+1110,Loc. 385,18.571885,73.301945,110 Kv Bhira Khopoli Line 2
+1111,Loc. 392,18.556872,73.304494,110 Kv Bhira Khopoli Line 2
+1112,Loc. 398,18.542509,73.306623,110 Kv Bhira Khopoli Line 2
+1113,Loc. 399,18.539956,73.306961,110 Kv Bhira Khopoli Line 2
+1114,Loc. 400,18.537829,73.307151,110 Kv Bhira Khopoli Line 2
+1115,Loc. 401,18.53542,73.307545,110 Kv Bhira Khopoli Line 2
+1116,Loc. 402,18.533177,73.307902,110 Kv Bhira Khopoli Line 2
+1117,Loc. 406,18.524401,73.309551,110 Kv Bhira Khopoli Line 2
+1118,Loc. 407,18.522667,73.310075,110 Kv Bhira Khopoli Line 2
+1119,Loc. 410,18.518121,73.311549,110 Kv Bhira Khopoli Line 2
+1120,Loc. 412,18.514114,73.312628,110 Kv Bhira Khopoli Line 2
+1121,Loc. 413,18.511446,73.313385,110 Kv Bhira Khopoli Line 2
+1122,Loc. 414,18.508794,73.314161,110 Kv Bhira Khopoli Line 2
+1123,Loc. 418,18.499193,73.316938,110 Kv Bhira Khopoli Line 2
+1124,Loc. 419,18.497546,73.31738,110 Kv Bhira Khopoli Line 2
+1125,Loc. 423,18.490614,73.32038,110 Kv Bhira Khopoli Line 2
+1126,Loc. 424,18.489718,73.321416,110 Kv Bhira Khopoli Line 2
+1127,Loc. 427,18.484614,73.32743,110 Kv Bhira Khopoli Line 2
+1128,Loc. 430,18.479011,73.3343,110 Kv Bhira Khopoli Line 2
+1129,Loc. 435,18.47184,73.341492,110 Kv Bhira Khopoli Line 2
+1130,Loc. 437,18.468978,73.344529,110 Kv Bhira Khopoli Line 2
+1131,Loc. 438,18.467039,73.34661,110 Kv Bhira Khopoli Line 2
+1132,Loc. 439,18.46546,73.348111,110 Kv Bhira Khopoli Line 2
+1133,Loc. 441,18.461615,73.351145,110 Kv Bhira Khopoli Line 2
+1134,Loc. 443,18.458382,73.354142,110 Kv Bhira Khopoli Line 2
+1135,Loc. 445,18.455205,73.358028,110 Kv Bhira Khopoli Line 2
+1136,Loc. 447,18.452976,73.363284,110 Kv Bhira Khopoli Line 2
+1137,Loc. 448,18.452554,73.366461,110 Kv Bhira Khopoli Line 2
+1138,Loc. 449,18.453008,73.369223,110 Kv Bhira Khopoli Line 2
+1139,Loc. 451,18.453946,73.373617,110 Kv Bhira Khopoli Line 2
+1140,Loc. 452,18.453742,73.375643,110 Kv Bhira Khopoli Line 2
+1141,A2 Str. Bhira End,18.454963,73.39038,110 Kv Bhira Khopoli Line 2
+1142,Loc. 429A,18.480994,73.331881,110 Kv Bhira Khopoli Line 2
+1143,Loc. 460,18.454679,73.389103,110 Kv Bhira Khopoli Line 2
+1144,Loc. 461,18.454767,73.389978,110 Kv Bhira Khopoli Line 2
+1145,Loc. 173,18.783111,73.29171,110 Kv Bhira Khopoli Line 2
+1146,Loc. 174,18.784525,73.293087,110 Kv Bhira Khopoli Line 2
+1147,Loc. 175,18.785926,73.294451,110 Kv Bhira Khopoli Line 2
+1148,Loc. 176,18.787543,73.296025,110 Kv Bhira Khopoli Line 2
+1149,Loc. 177,18.789154,73.297594,110 Kv Bhira Khopoli Line 2
+1150,Loc. 178,18.790807,73.299204,110 Kv Bhira Khopoli Line 2
+1151,Loc. 179,18.792652,73.301,110 Kv Bhira Khopoli Line 2
+1152,Loc. 180,18.794174,73.302482,110 Kv Bhira Khopoli Line 2
+1153,Loc. 181,18.79467,73.304261,110 Kv Bhira Khopoli Line 2
+1154,Loc. 182,18.79537,73.306769,110 Kv Bhira Khopoli Line 2
+1155,Loc. 183,18.796089,73.309344,110 Kv Bhira Khopoli Line 2
+1156,Loc. 184,18.796792,73.311863,110 Kv Bhira Khopoli Line 2
+1157,Loc. 185,18.797944,73.315995,110 Kv Bhira Khopoli Line 2
+1158,Loc. 186,18.798215,73.316964,110 Kv Bhira Khopoli Line 2
+1159,Loc. 187,18.797123,73.321358,110 Kv Bhira Khopoli Line 2
+1160,Loc. 188,18.796247,73.324755,110 Kv Bhira Khopoli Line 2
+1161,Loc. 189,18.79551,73.327923,110 Kv Bhira Khopoli Line 2
+1162,Loc. 190,18.794793,73.329153,110 Kv Bhira Khopoli Line 2
+1163,Loc. 191,18.793891,73.330701,110 Kv Bhira Khopoli Line 2
+1164,Loc. 192,18.792661,73.332812,110 Kv Bhira Khopoli Line 2
+1165,Loc. 193,18.791922,73.33408,110 Kv Bhira Khopoli Line 2
+1166,Loc. 194,18.790169,73.336665,110 Kv Bhira Khopoli Line 2
+1167,Loc. 195,18.787946,73.339887,110 Kv Bhira Khopoli Line 2
+1168,Loc. 196,18.786496,73.341989,110 Kv Bhira Khopoli Line 2
+1169,Loc. 197,18.785756,73.343061,110 Kv Bhira Khopoli Line 2
+1170,Loc. 198,18.784123,73.345428,110 Kv Bhira Khopoli Line 2
+1171,Loc. 199,18.783122,73.348236,110 Kv Bhira Khopoli Line 2
+1172,Loc. 200,18.782413,73.349541,110 Kv Bhira Khopoli Line 2
+1173,Loc. 201,18.782019,73.351751,110 Kv Bhira Khopoli Line 2
+1174,Loc. 202,18.781349,73.353773,110 Kv Bhira Khopoli Line 2
+1175,A2 Str Khopoli end,18.781694,73.354672,110 Kv Bhira Khopoli Line 2
+1176,Loc. 21,19.215699,73.093799,110 Kv Kks Lines
+1177,Loc. 22,19.2153,73.092396,110 Kv Kks Lines
+1178,Loc. 23,19.214894,73.090973,110 Kv Kks Lines
+1179,Loc. 24,19.214491,73.089567,110 Kv Kks Lines
+1180,Loc. 25,19.214082,73.088127,110 Kv Kks Lines
+1181,Loc. 26,19.213666,73.086723,110 Kv Kks Lines
+1182,Loc. 27,19.212705,73.085549,110 Kv Kks Lines
+1183,Loc. 30,19.210044,73.082275,110 Kv Kks Lines
+1184,Loc. 29,19.21135,73.083878,110 Kv Kks Lines
+1185,Loc. 31,19.209261,73.081339,110 Kv Kks Lines
+1186,Loc. 28,19.211891,73.084536,110 Kv Kks Lines
+1187,Loc. 32,19.207697,73.079483,110 Kv Kks Lines
+1188,Loc. 33,19.206208,73.077664,110 Kv Kks Lines
+1189,Loc. 34,19.20446,73.075539,110 Kv Kks Lines
+1190,Loc. 35,19.203361,73.074232,110 Kv Kks Lines
+1191,Loc. 36,19.202422,73.073089,110 Kv Kks Lines
+1192,Loc. 37,19.201581,73.072007,110 Kv Kks Lines
+1193,Loc. 38,19.199864,73.069945,110 Kv Kks Lines
+1194,Loc. 39,19.198343,73.068131,110 Kv Kks Lines
+1195,Loc. 40,19.196778,73.066191,110 Kv Kks Lines
+1196,Loc. 41,19.195118,73.064123,110 Kv Kks Lines
+1197,Loc. 42,19.19367,73.062493,110 Kv Kks Lines
+1198,Loc. 43,19.192221,73.060695,110 Kv Kks Lines
+1199,Loc. 44,19.190561,73.058627,110 Kv Kks Lines
+1200,Loc. 45,19.188902,73.056664,110 Kv Kks Lines
+1201,Loc. 46,19.188199,73.055775,110 Kv Kks Lines
+1202,Loc. 47,19.186726,73.053977,110 Kv Kks Lines
+1203,Loc. 48,19.185214,73.052136,110 Kv Kks Lines
+1204,Loc. 49,19.18364,73.050085,110 Kv Kks Lines
+1205,Loc. 50,19.181986,73.048172,110 Kv Kks Lines
+1206,Loc. 51,19.180455,73.046298,110 Kv Kks Lines
+1207,Loc. 52,19.17888,73.044369,110 Kv Kks Lines
+1208,Loc. 53,19.178519,73.041738,110 Kv Kks Lines
+1209,Loc. 54,19.17815,73.039129,110 Kv Kks Lines
+1210,Loc. 55,19.177736,73.036616,110 Kv Kks Lines
+1211,Loc. 56,19.177387,73.034155,110 Kv Kks Lines
+1212,Loc. 57,19.177016,73.03168,110 Kv Kks Lines
+1213,Loc. 58,19.176653,73.029292,110 Kv Kks Lines
+1214,Loc. 59,19.176325,73.027158,110 Kv Kks Lines
+1215,Loc . 60,19.17609,73.025033,110 Kv Kks Lines
+1216,Loc. 61,19.175826,73.023331,110 Kv Kks Lines
+1217,Loc. 62,19.175612,73.021892,110 Kv Kks Lines
+1218,Loc. 63,19.175385,73.020375,110 Kv Kks Lines
+1219,Loc. 64,19.17521,73.01923,110 Kv Kks Lines
+1220,Loc. 65,19.175059,73.01802,110 Kv Kks Lines
+1221,Loc. 66,19.174897,73.016936,110 Kv Kks Lines
+1222,Loc. 67,19.174086,73.015406,110 Kv Kks Lines
+1223,Loc. 68,19.174319,73.013528,110 Kv Kks Lines
+1224,Loc. 69,19.174105,73.011984,110 Kv Kks Lines
+1225,Loc. 70,19.173907,73.010524,110 Kv Kks Lines
+1226,Loc. 71,19.17326,73.007757,110 Kv Kks Lines
+1227,Loc. 73,19.172964,73.004583,110 Kv Kks Lines
+1228,Loc. 72,19.173054,73.0061,110 Kv Kks Lines
+1229,Loc. 75,19.172447,73.001117,110 Kv Kks Lines
+1230,Loc. 74,19.172725,73.003081,110 Kv Kks Lines
+1231,Loc. 19,19.216624,73.097016,110 Kv Kks Lines
+1232,Loc. 20,19.216226,73.095533,110 Kv Kks Lines
+1233,Loc. 18,19.216784,73.098405,110 Kv Kks Lines
+1234,Loc. 76,19.172144,72.998719,110 Kv Kks Lines
+1235,Loc. 77,19.171913,72.997645,110 Kv Kks Lines
+1236,A2 Structure,19.223246,73.118557,110 Kv Kks Lines
+1237,Loc. 03 (UG Fiber cable from loc. 03 to A2 Str),19.223147,73.117586,110 Kv Kks Lines
+1238,Loc. 04,19.222242,73.116553,110 Kv Kks Lines
+1239,Loc. 05,19.221861,73.115253,110 Kv Kks Lines
+1240,Loc. 06,19.221461,73.113861,110 Kv Kks Lines
+1241,Loc. 07,19.221019,73.112308,110 Kv Kks Lines
+1242,Loc. 08,19.220645,73.110797,110 Kv Kks Lines
+1243,Loc. 09,19.220226,73.109328,110 Kv Kks Lines
+1244,Loc. 10,19.219844,73.108278,110 Kv Kks Lines
+1245,Loc. 11,19.219478,73.106942,110 Kv Kks Lines
+1246,Loc. 12,19.219075,73.105511,110 Kv Kks Lines
+1247,Loc. 13,19.218706,73.104108,110 Kv Kks Lines
+1248,Loc. 14,19.218228,73.102531,110 Kv Kks Lines
+1249,Loc. 15,19.217886,73.101347,110 Kv Kks Lines
+1250,Loc. 16,19.217428,73.099736,110 Kv Kks Lines
+1251,Loc. 17,19.217092,73.098564,110 Kv Kks Lines
+1252,A2 Structure Salsette End,19.155406,72.934636,110 Kv Kks Lines
+1253,Loc. 118,19.155222,72.935126,110 Kv Kks Lines
+1254,Loc. 117,19.15479,72.936545,110 Kv Kks Lines
+1255,Loc. 116,19.154242,72.937917,110 Kv Kks Lines
+1256,Loc. 115,19.153669,72.939488,110 Kv Kks Lines
+1257,Loc. 114,19.152975,72.941058,110 Kv Kks Lines
+1258,Loc. 112,19.150742,72.943661,110 Kv Kks Lines
+1259,Loc. 111,19.150001,72.944527,110 Kv Kks Lines
+1260,Loc. 110,19.148787,72.945908,110 Kv Kks Lines
+1261,Loc. 100,19.1553,72.956969,110 Kv Kks Lines
+1262,Loc. 101,19.154614,72.956278,110 Kv Kks Lines
+1263,Loc. 106,19.146369,72.949069,110 Kv Kks Lines
+1264,Loc. 113,19.151834,72.942416,110 Kv Kks Lines
+1265,Loc. 99,19.156292,72.958542,110 Kv Kks Lines
+1266,Loc. 87,19.168158,72.976053,110 Kv Kks Lines
+1267,Loc. 99A,19.155712,72.958121,110 Kv Kks Lines
+1268,Loc. 103,19.152968,72.954448,110 Kv Kks Lines
+1269,Loc. 104,19.151799,72.953181,110 Kv Kks Lines
+1270,Loc. 105,19.150511,72.951796,110 Kv Kks Lines
+1271,Loc. 106,19.149132,72.95032,110 Kv Kks Lines
+1272,Loc. 107,19.147731,72.948887,110 Kv Kks Lines
+1273,Loc. 108,19.147268,72.948372,110 Kv Kks Lines
+1274,Loc. 12 (108),19.146707,72.94744,110 Kv Kks Lines
+1275,Loc. 109,19.14719,72.947756,110 Kv Kks Lines
+1276,Loc. 102,19.154041,72.955602,110 Kv Kks Lines
+1277,Loc. 98,19.158069,72.959966,110 Kv Kks Lines
+1278,Loc. 97,19.159103,72.961086,110 Kv Kks Lines
+1279,Loc 96,19.160425,72.962539,110 Kv Kks Lines
+1280,Loc. 95,19.161853,72.964056,110 Kv Kks Lines
+1281,Loc. 94,19.163241,72.965565,110 Kv Kks Lines
+1282,Loc. 93,19.164681,72.967116,110 Kv Kks Lines
+1283,Loc. 92,19.166161,72.968701,110 Kv Kks Lines
+1284,Loc. 91,19.167553,72.970215,110 Kv Kks Lines
+1285,Loc. 89,19.168003,72.973057,110 Kv Kks Lines
+1286,Loc. 90,19.167761,72.971576,110 Kv Kks Lines
+1287,Loc. 88,19.168164,72.974233,110 Kv Kks Lines
+1288,Loc. 86,19.168616,72.977929,110 Kv Kks Lines
+1289,Loc. 85,19.168971,72.980127,110 Kv Kks Lines
+1290,Loc. 84,19.169318,72.982307,110 Kv Kks Lines
+1291,Loc. 83,19.169705,72.984856,110 Kv Kks Lines
+1292,Loc. 82,19.170036,72.987202,110 Kv Kks Lines
+1293,Loc. 81,19.170448,72.989565,110 Kv Kks Lines
+1294,Loc. 80,19.170806,72.99163,110 Kv Kks Lines
+1295,Loc. 79,19.17115,72.993602,110 Kv Kks Lines
+1296,Loc. 78,19.171713,72.99561,110 Kv Kks Lines
+1297,A2 Structure Kalyan end,19.223454,73.119114,Ambernath Kalyan Lines
+1298,Loc 80A,19.223387,73.119659,Ambernath Kalyan Lines
+1299,Loc 80,19.223151,73.119946,Ambernath Kalyan Lines
+1300,Loc. 79,19.222492,73.121246,Ambernath Kalyan Lines
+1301,Loc. 78,19.220902,73.123041,Ambernath Kalyan Lines
+1302,Loc. 77,19.219302,73.124852,Ambernath Kalyan Lines
+1303,Loc. 76,19.217952,73.12635,Ambernath Kalyan Lines
+1304,Loc. 75,19.217606,73.128268,Ambernath Kalyan Lines
+1305,Loc. 74,19.217296,73.130182,Ambernath Kalyan Lines
+1306,Loc. 73,19.216876,73.13255,Ambernath Kalyan Lines
+1307,Loc. 72,19.21653,73.134614,Ambernath Kalyan Lines
+1308,Loc. 71,19.215288,73.137219,Ambernath Kalyan Lines
+1309,Loc. 70,19.212422,73.13816,Ambernath Kalyan Lines
+1310,Loc. 69,19.21023,73.138906,Ambernath Kalyan Lines
+1311,Loc. 68,19.207786,73.139672,Ambernath Kalyan Lines
+1312,Loc. 67,19.206704,73.14139,Ambernath Kalyan Lines
+1313,Loc. 66,19.205508,73.143254,Ambernath Kalyan Lines
+1314,Loc. 65,19.20427,73.145175,Ambernath Kalyan Lines
+1315,Loc. 64,19.203047,73.146997,Ambernath Kalyan Lines
+1316,Loc. 63,19.201854,73.148913,Ambernath Kalyan Lines
+1317,Loc. 62,19.200615,73.150779,Ambernath Kalyan Lines
+1318,Loc. 61,19.19946,73.152565,Ambernath Kalyan Lines
+1319,Loc. 60,19.19854,73.153996,Ambernath Kalyan Lines
+1320,Loc. 59,19.197356,73.155763,Ambernath Kalyan Lines
+1321,Loc. 58,19.196202,73.157545,Ambernath Kalyan Lines
+1322,Loc. 57,19.195067,73.158269,Ambernath Kalyan Lines
+1323,Loc. 56,19.192278,73.159994,Ambernath Kalyan Lines
+1324,Loc. 55,19.191454,73.162585,Ambernath Kalyan Lines
+1325,Loc. 54,19.190657,73.165085,Ambernath Kalyan Lines
+1326,Loc. 53,19.189991,73.167047,Ambernath Kalyan Lines
+1327,Loc. 52,19.189391,73.168958,Ambernath Kalyan Lines
+1328,Loc. 51,19.191351,73.171002,Ambernath Kalyan Lines
+1329,Loc. 50,19.193,73.172667,Ambernath Kalyan Lines
+1330,Loc. 49,19.194404,73.174111,Ambernath Kalyan Lines
+1331,Loc. 48,19.194268,73.176765,Ambernath Kalyan Lines
+1332,Loc. 47,19.194204,73.179105,Ambernath Kalyan Lines
+1333,Loc. 46,19.194166,73.180941,Ambernath Kalyan Lines
+1334,Loc. 45,19.194091,73.183184,Ambernath Kalyan Lines
+1335,Loc. 44,19.194468,73.185079,Ambernath Kalyan Lines
+1336,Loc. 43,19.194851,73.187212,Ambernath Kalyan Lines
+1337,Loc. 42,19.195267,73.1897,Ambernath Kalyan Lines
+1338,Loc. 41,19.195614,73.19143,Ambernath Kalyan Lines
+1339,Loc. 40,19.196035,73.193893,Ambernath Kalyan Lines
+1340,Loc. 39,19.196418,73.19566,Ambernath Kalyan Lines
+1341,Loc. 38,19.197162,73.196174,Ambernath Kalyan Lines
+1342,Loc. 37,19.198377,73.197035,Ambernath Kalyan Lines
+1343,Loc. 36,19.199542,73.198571,Ambernath Kalyan Lines
+1344,Loc. 35,19.200641,73.19922,Ambernath Kalyan Lines
+1345,Loc. 34,19.202584,73.20046,Ambernath Kalyan Lines
+1346,Loc. 32,19.203909,73.2027,Ambernath Kalyan Lines
+1347,Loc. 31,19.205139,73.202743,Ambernath Kalyan Lines
+1348,Loc. 30,19.205801,73.203202,Ambernath Kalyan Lines
+1349,Loc. 29,19.206677,73.20359,Ambernath Kalyan Lines
+1350,Loc. 28,19.207844,73.203764,Ambernath Kalyan Lines
+1351,Loc. 27,19.209218,73.204157,Ambernath Kalyan Lines
+1352,Loc. 26,19.210717,73.204557,Ambernath Kalyan Lines
+1353,Loc. 25,19.211576,73.2042,Ambernath Kalyan Lines
+1354,Loc. 24,19.212496,73.203811,Ambernath Kalyan Lines
+1355,Loc. 23,19.213561,73.203325,Ambernath Kalyan Lines
+1356,Loc. 22,19.214707,73.202841,Ambernath Kalyan Lines
+1357,Loc. 21,19.216576,73.201776,Ambernath Kalyan Lines
+1358,Loc. 20,19.218736,73.201087,Ambernath Kalyan Lines
+1359,Loc. 19,19.21979,73.200611,Ambernath Kalyan Lines
+1360,Loc. 18,19.220995,73.200081,Ambernath Kalyan Lines
+1361,Loc. 17,19.22261,73.199374,Ambernath Kalyan Lines
+1362,Loc. 16,19.223379,73.199075,Ambernath Kalyan Lines
+1363,Loc. 15,19.223837,73.198863,Ambernath Kalyan Lines
+1364,Loc. 14,19.225507,73.198135,Ambernath Kalyan Lines
+1365,Loc. 13,19.227861,73.197055,Ambernath Kalyan Lines
+1366,Loc. 12,19.228282,73.196937,Ambernath Kalyan Lines
+1367,Loc. 11,19.230697,73.19584,Ambernath Kalyan Lines
+1368,Loc. 10,19.234014,73.194417,Ambernath Kalyan Lines
+1369,Loc. 09,19.234628,73.194136,Ambernath Kalyan Lines
+1370,Loc. 08,19.2361,73.193525,Ambernath Kalyan Lines
+1371,Loc. 07,19.237661,73.192807,Ambernath Kalyan Lines
+1372,Loc. 06,19.23833,73.192562,Ambernath Kalyan Lines
+1373,Loc. 05,19.238707,73.192485,Ambernath Kalyan Lines
+1374,Loc. 04,19.240311,73.192122,Ambernath Kalyan Lines
+1375,Loc. 03,19.242447,73.191656,Ambernath Kalyan Lines
+1376,Loc. 02,19.244655,73.191191,Ambernath Kalyan Lines
+1377,Loc. 01,19.246546,73.190308,Ambernath Kalyan Lines
+1378,A2 Structure Ambernath end,19.246889,73.190183,Ambernath Kalyan Lines
+1379,Loc. 33,19.202353,73.201434,Ambernath Kalyan Lines
+1380,Loc. 01 OFA Tap,19.206021,73.202823,Ambernath Kalyan Lines
+1381,Loc. 02 OFA Tap,19.206374,73.202071,Ambernath Kalyan Lines
+1382,Loc. 03 OFA Tap,19.206825,73.201068,Ambernath Kalyan Lines
+1383,Loc. 04 OFA Tap,19.207897,73.199147,Ambernath Kalyan Lines
+1384,Loc. 05 OFA Tap,19.209572,73.196148,Ambernath Kalyan Lines
+1385,Loc. 08 OFA Tap,19.215542,73.184813,Ambernath Kalyan Lines
+1386,Loc. 09 OFA Tap,19.216316,73.182903,Ambernath Kalyan Lines
+1387,Loc. 10 OFA Tap,19.217456,73.181093,Ambernath Kalyan Lines
+1388,Loc. 11 OFA Tap,19.218832,73.178489,Ambernath Kalyan Lines
+1389,Loc. 12A OFA Tap,19.220381,73.175547,Ambernath Kalyan Lines
+1390,Loc. 12 OFA Tap,19.220241,73.175797,Ambernath Kalyan Lines
+1391,Loc. 01 OFA North Tap,19.221369,73.176393,Ambernath Kalyan Lines
+1392,Loc. 02 OFA North Tap,19.223375,73.177979,Ambernath Kalyan Lines
+1393,Loc. 03 OFA North Tap,19.222808,73.179047,Ambernath Kalyan Lines
+1394,Loc. 04 OFA North Tap,19.222445,73.178881,Ambernath Kalyan Lines
+1395,Loc. 07 OFA Tap,19.213815,73.187853,Ambernath Kalyan Lines
+1396,Loc. 06 OFA Tap,19.21231,73.190726,Ambernath Kalyan Lines
+1397,Loc 286,18.781698,73.353925,110Kv Khopoli Bokarpada
+1398,Loc 285,18.78277,73.351813,110Kv Khopoli Bokarpada
+1399,Loc 284,18.783762,73.349397,110Kv Khopoli Bokarpada
+1400,Loc 282,18.785834,73.34517,110Kv Khopoli Bokarpada
+1401,Loc 283,18.784373,73.347821,110Kv Khopoli Bokarpada
+1402,Loc 281,18.78679,73.343581,110Kv Khopoli Bokarpada
+1403,Loc 280,18.788231,73.341452,110Kv Khopoli Bokarpada
+1404,Loc 279,18.789177,73.339939,110Kv Khopoli Bokarpada
+1405,Loc 278,18.790703,73.336865,110Kv Khopoli Bokarpada
+1406,Loc 276,18.79284,73.333134,110Kv Khopoli Bokarpada
+1407,Loc 274,18.795714,73.328253,110Kv Khopoli Bokarpada
+1408,Loc 275,18.794448,73.330507,110Kv Khopoli Bokarpada
+1409,Loc 277,18.791583,73.33524,110Kv Khopoli Bokarpada
+1410,Loc 273,18.797081,73.325514,110Kv Khopoli Bokarpada
+1411,Loc 272,18.798051,73.323414,110Kv Khopoli Bokarpada
+1412,Loc 271,18.799242,73.320975,110Kv Khopoli Bokarpada
+1413,Loc 270,18.800336,73.318597,110Kv Khopoli Bokarpada
+1414,Loc 269,18.801489,73.316666,110Kv Khopoli Bokarpada
+1415,Loc 268,18.802497,73.31425,110Kv Khopoli Bokarpada
+1416,Loc 267,18.803964,73.311242,110Kv Khopoli Bokarpada
+1417,Loc 266,18.805381,73.308325,110Kv Khopoli Bokarpada
+1418,Loc 265,18.806303,73.306369,110Kv Khopoli Bokarpada
+1419,Loc 264,18.807458,73.303861,110Kv Khopoli Bokarpada
+1420,Loc 263,18.808303,73.302083,110Kv Khopoli Bokarpada
+1421,Loc 262,18.809936,73.299278,110Kv Khopoli Bokarpada
+1422,Loc 261,18.811131,73.297097,110Kv Khopoli Bokarpada
+1423,Loc 260,18.812406,73.294781,110Kv Khopoli Bokarpada
+1424,Loc 259,18.813822,73.292269,110Kv Khopoli Bokarpada
+1425,Loc 258,18.815225,73.289786,110Kv Khopoli Bokarpada
+1426,Loc 257,18.818033,73.284739,110Kv Khopoli Bokarpada
+1427,Loc 256,18.819272,73.282528,110Kv Khopoli Bokarpada
+1428,Loc 255,18.821647,73.278286,110Kv Khopoli Bokarpada
+1429,Loc 254,18.824283,73.273514,110Kv Khopoli Bokarpada
+1430,Loc 253,18.825603,73.271139,110Kv Khopoli Bokarpada
+1431,Loc 252,18.826775,73.269044,110Kv Khopoli Bokarpada
+1432,Loc 251,18.827942,73.266936,110Kv Khopoli Bokarpada
+1433,Loc 250,18.828922,73.265119,110Kv Khopoli Bokarpada
+1434,Loc 249,18.830314,73.262622,110Kv Khopoli Bokarpada
+1435,Loc 248,18.831222,73.260989,110Kv Khopoli Bokarpada
+1436,Loc 247,18.832533,73.258628,110Kv Khopoli Bokarpada
+1437,Loc 246,18.833692,73.25655,110Kv Khopoli Bokarpada
+1438,Loc 245,18.835144,73.253947,110Kv Khopoli Bokarpada
+1439,Loc 244,18.838253,73.251394,110Kv Khopoli Bokarpada
+1440,Loc 243,18.840416,73.249629,110Kv Khopoli Bokarpada
+1441,Loc 242,18.841981,73.248353,110Kv Khopoli Bokarpada
+1442,Loc 241,18.843736,73.247189,110Kv Khopoli Bokarpada
+1443,Loc 240,18.845931,73.245733,110Kv Khopoli Bokarpada
+1444,Loc 239,18.848736,73.243886,110Kv Khopoli Bokarpada
+1445,Loc 238,18.850922,73.242417,110Kv Khopoli Bokarpada
+1446,Loc 237,18.853142,73.240964,110Kv Khopoli Bokarpada
+1447,Loc 236,18.854731,73.239897,110Kv Khopoli Bokarpada
+1448,Loc 235,18.856769,73.238569,110Kv Khopoli Bokarpada
+1449,Loc 234,18.859244,73.236942,110Kv Khopoli Bokarpada
+1450,Loc 233,18.861006,73.235758,110Kv Khopoli Bokarpada
+1451,Loc 232,18.863264,73.234269,110Kv Khopoli Bokarpada
+1452,Loc 231,18.865339,73.232878,110Kv Khopoli Bokarpada
+1453,Loc 230,18.867547,73.231431,110Kv Khopoli Bokarpada
+1454,Loc 229,18.869627,73.230053,110Kv Khopoli Bokarpada
+1455,Loc 228,18.871952,73.228528,110Kv Khopoli Bokarpada
+1456,Loc 227,18.873551,73.227181,110Kv Khopoli Bokarpada
+1457,Loc 226,18.875333,73.225711,110Kv Khopoli Bokarpada
+1458,Loc 225,18.877311,73.224058,110Kv Khopoli Bokarpada
+1459,Loc 224,18.879306,73.222431,110Kv Khopoli Bokarpada
+1460,Loc 223,18.881033,73.220975,110Kv Khopoli Bokarpada
+1461,Loc 222,18.883074,73.219328,110Kv Khopoli Bokarpada
+1462,Loc 221,18.88484,73.217864,110Kv Khopoli Bokarpada
+1463,Loc 220,18.887652,73.215527,110Kv Khopoli Bokarpada
+1464,Loc 219,18.889003,73.214436,110Kv Khopoli Bokarpada
+1465,Loc 218,18.890636,73.213056,110Kv Khopoli Bokarpada
+1466,Loc 217,18.892417,73.211619,110Kv Khopoli Bokarpada
+1467,Loc 216,18.894228,73.210125,110Kv Khopoli Bokarpada
+1468,Loc 215,18.896142,73.208517,110Kv Khopoli Bokarpada
+1469,Loc 214,18.89825,73.206814,110Kv Khopoli Bokarpada
+1470,Loc 213,18.900249,73.205571,110Kv Khopoli Bokarpada
+1471,Loc 212,18.90229,73.204351,110Kv Khopoli Bokarpada
+1472,Loc 211,18.904292,73.203158,110Kv Khopoli Bokarpada
+1473,Loc 210,18.906628,73.201767,110Kv Khopoli Bokarpada
+1474,Loc 209,18.908308,73.20075,110Kv Khopoli Bokarpada
+1475,Loc 208,18.910412,73.199493,110Kv Khopoli Bokarpada
+1476,Loc 207,18.912344,73.198322,110Kv Khopoli Bokarpada
+1477,201A,18.914189,73.197211,110Kv Khopoli Bokarpada
+1478,Gantry Structure Karanjade End,18.978563,73.105586,110 Kv Khopoli Karanjade Line
+1479,Loc. 159,18.97837,73.106061,110 Kv Khopoli Karanjade Line
+1480,Loc. 160,18.977102,73.108829,110 Kv Khopoli Karanjade Line
+1481,Loc. 161,18.976454,73.109788,110 Kv Khopoli Karanjade Line
+1482,Loc. 162,18.976022,73.111297,110 Kv Khopoli Karanjade Line
+1483,Loc. 163,18.975403,73.113672,110 Kv Khopoli Karanjade Line
+1484,Loc. 164,18.974694,73.11591,110 Kv Khopoli Karanjade Line
+1485,Loc. 165,18.973804,73.11845,110 Kv Khopoli Karanjade Line
+1486,Loc. 166,18.973444,73.119711,110 Kv Khopoli Karanjade Line
+1487,Loc. 166A,18.972924,73.121179,110 Kv Khopoli Karanjade Line
+1488,Loc. 167,18.972586,73.122288,110 Kv Khopoli Karanjade Line
+1489,Loc. 168,18.97165,73.125099,110 Kv Khopoli Karanjade Line
+1490,Loc. 169,18.970621,73.127203,110 Kv Khopoli Karanjade Line
+1491,Loc. 170,18.969754,73.129077,110 Kv Khopoli Karanjade Line
+1492,Loc. 171,18.968792,73.130982,110 Kv Khopoli Karanjade Line
+1493,Loc. 172,18.967747,73.133038,110 Kv Khopoli Karanjade Line
+1494,Loc. 173,18.966482,73.135436,110 Kv Khopoli Karanjade Line
+1495,Loc. 174,18.965365,73.136635,110 Kv Khopoli Karanjade Line
+1496,Loc. 175,18.964494,73.137702,110 Kv Khopoli Karanjade Line
+1497,Loc. 176,18.962773,73.140505,110 Kv Khopoli Karanjade Line
+1498,Loc. 177,18.961442,73.142433,110 Kv Khopoli Karanjade Line
+1499,Loc. 177A,18.960676,73.143544,110 Kv Khopoli Karanjade Line
+1500,Loc. 178,18.959501,73.145266,110 Kv Khopoli Karanjade Line
+1501,Loc. 179,18.958829,73.146515,110 Kv Khopoli Karanjade Line
+1502,Loc. 180,18.958139,73.148125,110 Kv Khopoli Karanjade Line
+1503,Loc. 181,18.95738,73.150657,110 Kv Khopoli Karanjade Line
+1504,Loc. 182,18.956855,73.152309,110 Kv Khopoli Karanjade Line
+1505,Loc. 183,18.956114,73.155431,110 Kv Khopoli Karanjade Line
+1506,Loc. 183A,18.955859,73.156502,110 Kv Khopoli Karanjade Line
+1507,Loc. 184,18.955611,73.157568,110 Kv Khopoli Karanjade Line
+1508,Loc. 185,18.955012,73.160112,110 Kv Khopoli Karanjade Line
+1509,Loc. 186,18.95447,73.162367,110 Kv Khopoli Karanjade Line
+1510,Loc. 187,18.953879,73.164893,110 Kv Khopoli Karanjade Line
+1511,Loc. 188,18.953431,73.166741,110 Kv Khopoli Karanjade Line
+1512,Loc. 189,18.952952,73.168807,110 Kv Khopoli Karanjade Line
+1513,Loc. 190,18.952429,73.170933,110 Kv Khopoli Karanjade Line
+1514,Loc. 191,18.951083,73.172744,110 Kv Khopoli Karanjade Line
+1515,Loc. 192,18.949639,73.174691,110 Kv Khopoli Karanjade Line
+1516,Loc. 193,18.94849,73.176243,110 Kv Khopoli Karanjade Line
+1517,Loc. 194,18.946518,73.177377,110 Kv Khopoli Karanjade Line
+1518,Loc. 195,18.944925,73.178362,110 Kv Khopoli Karanjade Line
+1519,Loc. 196,18.94287,73.179583,110 Kv Khopoli Karanjade Line
+1520,Loc. 197,18.941027,73.180691,110 Kv Khopoli Karanjade Line
+1521,Loc. 198,18.939507,73.181605,110 Kv Khopoli Karanjade Line
+1522,Loc. 199,18.937209,73.183008,110 Kv Khopoli Karanjade Line
+1523,Loc. 200,18.93519,73.184248,110 Kv Khopoli Karanjade Line
+1524,Loc. 201,18.933024,73.185523,110 Kv Khopoli Karanjade Line
+1525,Loc. 202,18.931107,73.186669,110 Kv Khopoli Karanjade Line
+1526,Loc. 203,18.929172,73.187825,110 Kv Khopoli Karanjade Line
+1527,Loc. 204,18.927616,73.188758,110 Kv Khopoli Karanjade Line
+1528,Loc. 205,18.925567,73.189984,110 Kv Khopoli Karanjade Line
+1529,Loc. 206,18.923585,73.191187,110 Kv Khopoli Karanjade Line
+1530,Loc. 207,18.921648,73.192355,110 Kv Khopoli Karanjade Line
+1531,Loc. 208,18.91952,73.193629,110 Kv Khopoli Karanjade Line
+1532,Loc. 209,18.917641,73.194753,110 Kv Khopoli Karanjade Line
+1533,Loc. 210,18.915677,73.195932,110 Kv Khopoli Karanjade Line
+1534,Loc. 211,18.913849,73.197034,110 Kv Khopoli Karanjade Line
+1535,Loc. 212,18.912118,73.198086,110 Kv Khopoli Karanjade Line
+1536,Loc. 213,18.910193,73.199222,110 Kv Khopoli Karanjade Line
+1537,Loc. 214,18.908121,73.200452,110 Kv Khopoli Karanjade Line
+1538,Loc. 215,18.90633,73.201539,110 Kv Khopoli Karanjade Line
+1539,Loc. 217A,18.90142,73.204478,110 Kv Khopoli Karanjade Line
+1540,Loc. 217,18.903516,73.203395,110 Kv Khopoli Karanjade Line
+1541,Loc. 216,18.904196,73.202833,110 Kv Khopoli Karanjade Line
+1542,Loc. 218,18.900262,73.205176,110 Kv Khopoli Karanjade Line
+1543,Loc. 219,18.897777,73.206679,110 Kv Khopoli Karanjade Line
+1544,Loc. 220,18.895673,73.208411,110 Kv Khopoli Karanjade Line
+1545,Loc. 221,18.893752,73.210005,110 Kv Khopoli Karanjade Line
+1546,Loc. 222,18.892041,73.211422,110 Kv Khopoli Karanjade Line
+1547,Loc. 223,18.890426,73.212773,110 Kv Khopoli Karanjade Line
+1548,Loc. 224,18.888963,73.21397,110 Kv Khopoli Karanjade Line
+1549,Loc. 225,18.887514,73.215193,110 Kv Khopoli Karanjade Line
+1550,Loc. 226,18.885771,73.216607,110 Kv Khopoli Karanjade Line
+1551,Loc. 227,18.884149,73.217949,110 Kv Khopoli Karanjade Line
+1552,Loc. 228,18.8823,73.219459,110 Kv Khopoli Karanjade Line
+1553,Loc. 229,18.880284,73.221137,110 Kv Khopoli Karanjade Line
+1554,Loc. 230,18.878514,73.222624,110 Kv Khopoli Karanjade Line
+1555,Loc. 231,18.876812,73.224019,110 Kv Khopoli Karanjade Line
+1556,Loc. 232,18.874914,73.22561,110 Kv Khopoli Karanjade Line
+1557,Loc. 233,18.873051,73.227147,110 Kv Khopoli Karanjade Line
+1558,Loc. 234,18.871736,73.228222,110 Kv Khopoli Karanjade Line
+1559,Loc. 235,18.86961,73.229639,110 Kv Khopoli Karanjade Line
+1560,Loc. 236,18.86737,73.231138,110 Kv Khopoli Karanjade Line
+1561,Loc. 237,18.865328,73.23248,110 Kv Khopoli Karanjade Line
+1562,Loc. 238,18.863511,73.233676,110 Kv Khopoli Karanjade Line
+1563,Loc. 239,18.86148,73.23503,110 Kv Khopoli Karanjade Line
+1564,Loc. 240,18.859593,73.236276,110 Kv Khopoli Karanjade Line
+1565,Loc. 241,18.85767,73.237551,110 Kv Khopoli Karanjade Line
+1566,Loc. 242,18.855742,73.238838,110 Kv Khopoli Karanjade Line
+1567,Loc. 243,18.853793,73.240116,110 Kv Khopoli Karanjade Line
+1568,Loc. 244,18.852319,73.241093,110 Kv Khopoli Karanjade Line
+1569,Loc. 245,18.850491,73.242342,110 Kv Khopoli Karanjade Line
+1570,Loc. 246,18.848106,73.243884,110 Kv Khopoli Karanjade Line
+1571,Loc. 247,18.845771,73.245443,110 Kv Khopoli Karanjade Line
+1572,Loc. 248,18.843546,73.246876,110 Kv Khopoli Karanjade Line
+1573,Loc. 249,18.841732,73.248106,110 Kv Khopoli Karanjade Line
+1574,Loc. 250,18.839903,73.249614,110 Kv Khopoli Karanjade Line
+1575,Loc. 251,18.838005,73.251164,110 Kv Khopoli Karanjade Line
+1576,Loc. 252,18.836305,73.252551,110 Kv Khopoli Karanjade Line
+1577,Loc. 252A,18.834732,73.253782,110 Kv Khopoli Karanjade Line
+1578,Loc. 253,18.832431,73.256909,110 Kv Khopoli Karanjade Line
+1579,Loc. 254,18.831285,73.259366,110 Kv Khopoli Karanjade Line
+1580,A2 Structure Khopoli end,18.781577,73.354708,110 Kv Khopoli Karanjade Line
+1581,Loc. 308,18.781498,73.354503,110 Kv Khopoli Karanjade Line
+1582,Loc. 307,18.78155,73.354031,110 Kv Khopoli Karanjade Line
+1583,Loc. 306,18.782571,73.351929,110 Kv Khopoli Karanjade Line
+1584,Loc. 305,18.783719,73.34908,110 Kv Khopoli Karanjade Line
+1585,Loc. 304,18.784317,73.347622,110 Kv Khopoli Karanjade Line
+1586,Loc. 299,18.790612,73.336721,110 Kv Khopoli Karanjade Line
+1587,Loc. 300,18.789435,73.338713,110 Kv Khopoli Karanjade Line
+1588,Loc. 301,18.78841,73.340491,110 Kv Khopoli Karanjade Line
+1589,Loc. 302,18.787122,73.34274,110 Kv Khopoli Karanjade Line
+1590,Loc. 303,18.785672,73.345252,110 Kv Khopoli Karanjade Line
+1591,Loc. 298,18.791491,73.335092,110 Kv Khopoli Karanjade Line
+1592,Loc. 297,18.792799,73.332961,110 Kv Khopoli Karanjade Line
+1593,Loc. 296,18.793591,73.331582,110 Kv Khopoli Karanjade Line
+1594,Loc. 295,18.794511,73.329999,110 Kv Khopoli Karanjade Line
+1595,Loc. 294,18.795666,73.327943,110 Kv Khopoli Karanjade Line
+1596,Loc. 293,18.796631,73.326015,110 Kv Khopoli Karanjade Line
+1597,Loc. 292,18.797251,73.324699,110 Kv Khopoli Karanjade Line
+1598,Loc. 291,18.797876,73.323406,110 Kv Khopoli Karanjade Line
+1599,Loc. 255,18.829845,73.261722,110 Kv Khopoli Karanjade Line
+1600,Loc. 256,18.828362,73.264163,110 Kv Khopoli Karanjade Line
+1601,Loc. 285,18.803482,73.312908,110 Kv Khopoli Karanjade Line
+1602,Loc. 286,18.802243,73.31542,110 Kv Khopoli Karanjade Line
+1603,Loc. 290,18.798458,73.32238,110 Kv Khopoli Karanjade Line
+1604,Loc. 284,18.803796,73.311238,110 Kv Khopoli Karanjade Line
+1605,Loc. 273,18.813657,73.290202,110 Kv Khopoli Karanjade Line
+1606,Loc. 272,18.814388,73.289099,110 Kv Khopoli Karanjade Line
+1607,Loc. 259,18.825557,73.270777,110 Kv Khopoli Karanjade Line
+1608,Loc. 260,18.824254,73.272089,110 Kv Khopoli Karanjade Line
+1609,Loc. 257,18.82789,73.266916,110 Kv Khopoli Karanjade Line
+1610,Loc. 258,18.826564,73.268972,110 Kv Khopoli Karanjade Line
+1611,Loc. 261,18.82362,73.274373,110 Kv Khopoli Karanjade Line
+1612,Loc. 262,18.822643,73.276106,110 Kv Khopoli Karanjade Line
+1613,Loc. 276,18.810741,73.295482,110 Kv Khopoli Karanjade Line
+1614,Loc. 277,18.809423,73.297843,110 Kv Khopoli Karanjade Line
+1615,Loc. 287,18.800675,73.316864,110 Kv Khopoli Karanjade Line
+1616,Loc. 288,18.799968,73.319631,110 Kv Khopoli Karanjade Line
+1617,Loc. 289,18.799305,73.320933,110 Kv Khopoli Karanjade Line
+1618,Loc. 283,18.8048,73.308936,110 Kv Khopoli Karanjade Line
+1619,Loc. 280,18.807353,73.303665,110 Kv Khopoli Karanjade Line
+1620,Loc. 282,18.805668,73.307225,110 Kv Khopoli Karanjade Line
+1621,Loc. 281,18.806556,73.305521,110 Kv Khopoli Karanjade Line
+1622,Loc. 278,18.808993,73.299936,110 Kv Khopoli Karanjade Line
+1623,Loc. 265,18.820449,73.280357,110 Kv Khopoli Karanjade Line
+1624,Loc. 279,18.808096,73.302139,110 Kv Khopoli Karanjade Line
+1625,Loc. 275,18.811606,73.294181,110 Kv Khopoli Karanjade Line
+1626,Loc. 274,18.812646,73.292568,110 Kv Khopoli Karanjade Line
+1627,Loc. 271,18.815213,73.287329,110 Kv Khopoli Karanjade Line
+1628,Loc. 270,18.816241,73.285704,110 Kv Khopoli Karanjade Line
+1629,Loc. 269,18.817313,73.28378,110 Kv Khopoli Karanjade Line
+1630,Loc. 268,18.817729,73.283223,110 Kv Khopoli Karanjade Line
+1631,Loc. 267,18.818469,73.282504,110 Kv Khopoli Karanjade Line
+1632,Loc. 266,18.819736,73.281295,110 Kv Khopoli Karanjade Line
+1633,Loc. 264,18.82141,73.278357,110 Kv Khopoli Karanjade Line
+1634,Loc. 263,18.821965,73.276943,110 Kv Khopoli Karanjade Line

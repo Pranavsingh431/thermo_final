@@ -1,0 +1,35 @@
+# FastAPI Backend Requirements for Thermal Eye
+
+# Core FastAPI
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+
+# Data processing
+pandas==2.1.3
+numpy==1.25.2
+
+# Image processing and OCR
+Pillow==10.1.0
+easyocr==1.7.0
+torch==2.2.2
+opencv-python-headless==4.10.0.84
+
+# HTTP requests
+requests==2.31.0
+
+# CORS middleware
+python-dotenv==1.0.0
+
+# Email
+secure-smtplib==0.1.1
+openpyxl==3.1.2
+reportlab==3.6.12
+matplotlib==3.7.2
+
+# Math and utilities
+pydantic==2.5.0
