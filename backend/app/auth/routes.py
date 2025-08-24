@@ -14,21 +14,8 @@ from .security import (
     verify_refresh_token, generate_reset_token, validate_password_strength
 )
 from .dependencies import get_current_user
-from ..config import DATABASE_URL
 from ..email_templates import send_password_reset_email
-
-# Database setup (using same DB as main app)
-engine = create_engine(DATABASE_URL)
-
-def get_db():
-    """Database dependency"""
-    from sqlalchemy.orm import sessionmaker
-    SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
+from ..database import get_db
 
 router = APIRouter(prefix="/auth", tags=["authentication"])
 
@@ -92,6 +79,13 @@ async def register(user_data: UserCreate, request: Request = None, db: Session =
             detail="Password must be at least 8 characters with uppercase, lowercase, and numbers"
         )
     
+    # Check if user already exists (check this first for proper error handling)
+    if get_user_by_email(db, user_data.email):
+        raise HTTPException(
+            status_code=status.HTTP_400_BAD_REQUEST,
+            detail="Email already registered"
+        )
+    
     # Check if any users exist
     user_count = db.query(User).count()
     
@@ -99,19 +93,12 @@ async def register(user_data: UserCreate, request: Request = None, db: Session =
     if user_count == 0:
         user_data.role = "admin"
     else:
-        # For now, prevent registration if users exist
-        # In production, add admin-only check here
+        # After first user exists, prevent additional registration
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Registration is not allowed. Contact administrator."
         )
     
-    # Check if user already exists
-    if get_user_by_email(db, user_data.email):
-        raise HTTPException(
-            status_code=status.HTTP_400_BAD_REQUEST,
-            detail="Email already registered"
-        )
     
     user = create_user(db, user_data)
     

@@ -18,7 +18,7 @@ from math import radians, cos, sin, asin, sqrt
 import structlog
 import sentry_sdk
 from sentry_sdk.integrations.fastapi import FastApiIntegration
-from sentry_sdk.integrations.sqlalchemy import SqlAlchemyIntegration
+from sentry_sdk.integrations.sqlalchemy import SqlalchemyIntegration
 
 structlog.configure(
     processors=[
@@ -44,7 +44,7 @@ if SENTRY_DSN:
         dsn=SENTRY_DSN,
         integrations=[
             FastApiIntegration(auto_enabling_integrations=False),
-            SqlAlchemyIntegration(),
+            SqlalchemyIntegration(),
         ],
         traces_sample_rate=0.1,
         environment=os.environ.get('ENVIRONMENT', 'development')
@@ -90,6 +90,7 @@ from sqlalchemy.orm import sessionmaker, Session
 # Import configuration
 from app.config import *
 from app.models import Base, ThermalReport, User as AuthUser, AuditLog
+from app.database import get_db
 from app.auth.routes import router as auth_router
 from app.auth.dependencies import get_current_user
 from app.middleware.rate_limit import RateLimitMiddleware, upload_rate_limit, general_rate_limit
@@ -161,12 +162,6 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 Base.metadata.create_all(bind=engine)
 
 # Dependency to get DB session
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
 
 # Load tower data and Excel integration (using existing components)
 class ExcelDataIntegrator:
@@ -1512,7 +1507,6 @@ async def health_check():
 
 
 
-@app.post("/upload", response_model=UploadResponse)
 def validate_uploaded_file(file: UploadFile) -> None:
     """Validate uploaded file for security and format compliance"""
     # Check file extension
@@ -1546,6 +1540,7 @@ def validate_uploaded_file(file: UploadFile) -> None:
             detail="Invalid image file. File appears to be corrupted or not a valid image."
         )
 
+@app.post("/upload", response_model=UploadResponse)
 async def upload_thermal_image(
     request: Request,
     file: UploadFile = File(...), 

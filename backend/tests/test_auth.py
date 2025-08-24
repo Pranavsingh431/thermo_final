@@ -13,7 +13,7 @@ class TestAuthentication:
         """Test registering the first admin user"""
         user_data = {
             "email": "admin@example.com",
-            "password": "testpass123",
+            "password": "TestPass123",
             "role": "admin"
         }
         
@@ -36,7 +36,7 @@ class TestAuthentication:
         """Test that registration is blocked after first user"""
         new_user_data = {
             "email": "user2@example.com",
-            "password": "testpass123",
+            "password": "TestPass123",
             "role": "viewer"
         }
         

@@ -9,7 +9,8 @@ from starlette.testclient import TestClient
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 
-from app.main import app, get_db
+from app.main import app
+from app.database import get_db
 from app.models import Base
 
 
@@ -56,7 +57,7 @@ def admin_user(client):
     """Create admin user for testing"""
     user_data = {
         "email": "test_admin@example.com",
-        "password": "testpass123",
+        "password": "TestPass123",
         "role": "admin"
     }
     
