@@ -1608,8 +1608,7 @@ async def upload_thermal_image(
             analysis_status = "success"
         elif image_temp:
             delta_t = image_temp - ambient_temp
-            if delta_t > threshold_used:
-                fault_level = "WARNING"
+            fault_level = classify_fault_level(delta_t, threshold_used, "MEDIUM")
             analysis_status = "partial"  # No tower found but temperature extracted
         
         # Create database record
