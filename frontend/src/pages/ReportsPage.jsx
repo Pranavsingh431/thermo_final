@@ -13,9 +13,10 @@ import {
   Eye,
   BarChart3,
   PieChart,
-  TrendingUp
+  TrendingUp,
+  Trash2
 } from 'lucide-react';
-import { getThermalReports, generateDetailedReport } from '../utils/api';
+import { getThermalReports, generateDetailedReport, deleteReport } from '../utils/api';
 import { useAlert } from '../contexts/AlertContext';
 import { formatDate, getFaultLevelBadgeClasses } from '../utils/helpers';
 import { API_BASE_URL } from '../config';
@@ -24,6 +25,8 @@ const ReportsPage = () => {
   const [reports, setReports] = useState([]);
   const [loading, setLoading] = useState(true);
   const [generatingReport, setGeneratingReport] = useState(null);
+  const [deletingReport, setDeletingReport] = useState(null);
+  const [showDeleteModal, setShowDeleteModal] = useState(null);
   const [dateRange, setDateRange] = useState('all');
   const [filterLevel, setFilterLevel] = useState('ALL');
   const { success } = useAlert();
@@ -65,6 +68,20 @@ const ReportsPage = () => {
       console.error('Failed to generate report:', err);
     } finally {
       setGeneratingReport(null);
+    }
+  };
+
+  const handleDeleteReport = async (reportId) => {
+    try {
+      setDeletingReport(reportId);
+      await deleteReport(reportId);
+      setReports(prev => prev.filter(r => r.id !== reportId));
+      setShowDeleteModal(null);
+      success('Report deleted successfully!');
+    } catch (err) {
+      console.error('Failed to delete report:', err);
+    } finally {
+      setDeletingReport(null);
     }
   };
 
@@ -171,8 +188,8 @@ const ReportsPage = () => {
     return (
       <div className="space-y-8">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Reports & Export</h1>
-          <p className="text-gray-600 mt-2">Loading reports...</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Reports & Export</h1>
+          <p className="text-gray-600 dark:text-gray-400 mt-2">Loading reports...</p>
         </div>
         <div className="flex items-center justify-center h-64">
           <div className="animate-spin rounded-full h-8 w-8 border-2 border-primary-600 border-t-transparent"></div>
@@ -190,8 +207,8 @@ const ReportsPage = () => {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-gray-900">Reports & Export</h1>
-          <p className="text-gray-600 mt-2">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-gray-100">Reports & Export</h1>
+          <p className="text-gray-600 dark:text-gray-400 mt-2">
             Generate detailed reports and export thermal inspection data
           </p>
         </div>
@@ -237,19 +254,19 @@ const ReportsPage = () => {
       </div>
 
       {/* Filters */}
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200 p-6">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6">
         <div className="flex items-center space-x-4 mb-4">
-          <Filter className="h-5 w-5 text-gray-600" />
-          <h2 className="text-lg font-semibold text-gray-900">Report Filters</h2>
+          <Filter className="h-5 w-5 text-gray-600 dark:text-gray-400" />
+          <h2 className="text-lg font-semibold text-gray-900 dark:text-gray-100">Report Filters</h2>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">Date Range</label>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Date Range</label>
             <select
               value={dateRange}
               onChange={(e) => setDateRange(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
             >
               <option value="all">All Time</option>
               <option value="today">Today</option>
@@ -259,11 +276,11 @@ const ReportsPage = () => {
           </div>
           
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-2">Fault Level</label>
+            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Fault Level</label>
             <select
               value={filterLevel}
               onChange={(e) => setFilterLevel(e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent"
+              className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
             >
               <option value="ALL">All Levels</option>
               <option value="CRITICAL">Critical Only</option>
@@ -275,16 +292,16 @@ const ReportsPage = () => {
       </div>
 
       {/* Reports Table */}
-      <div className="bg-white rounded-xl shadow-sm border border-gray-200">
-        <div className="p-6 border-b border-gray-200">
+      <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700">
+        <div className="p-6 border-b border-gray-200 dark:border-gray-700">
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-xl font-semibold text-gray-900">Detailed Reports</h2>
-              <p className="text-sm text-gray-500 mt-1">
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100">Detailed Reports</h2>
+              <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">
                 {filteredReports.length} reports available for detailed analysis and PDF generation
               </p>
             </div>
-            <div className="text-sm text-gray-500">
+            <div className="text-sm text-gray-500 dark:text-gray-400">
               Quick access to last batch PDF: {(() => { 
                 try { 
                   const lastPdf = localStorage.getItem('lastCombinedPdf');
@@ -417,6 +434,14 @@ const ReportsPage = () => {
                             )}
                           </button>
                         )}
+                        
+                        <button
+                          onClick={() => setShowDeleteModal(report.id)}
+                          className="flex items-center space-x-1 text-red-600 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300"
+                        >
+                          <Trash2 className="h-4 w-4" />
+                          <span>Delete</span>
+                        </button>
                       </div>
                     </td>
                   </tr>
@@ -427,34 +452,63 @@ const ReportsPage = () => {
         </div>
       </div>
 
+      {/* Delete Confirmation Modal */}
+      {showDeleteModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-6 max-w-md w-full mx-4">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">
+              Confirm Delete
+            </h3>
+            <p className="text-gray-600 dark:text-gray-400 mb-6">
+              Are you sure you want to delete Report #{showDeleteModal}? This action cannot be undone.
+            </p>
+            <div className="flex space-x-3">
+              <button
+                onClick={() => setShowDeleteModal(null)}
+                className="flex-1 px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg text-gray-700 dark:text-gray-300 hover:bg-gray-50 dark:hover:bg-gray-700"
+              >
+                Cancel
+              </button>
+              <button
+                onClick={() => handleDeleteReport(showDeleteModal)}
+                disabled={deletingReport === showDeleteModal}
+                className="flex-1 px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 disabled:opacity-50"
+              >
+                {deletingReport === showDeleteModal ? 'Deleting...' : 'Delete'}
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Export Options */}
-      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-200">
-        <h3 className="font-semibold text-blue-900 mb-4 flex items-center">
+      <div className="bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-gray-800 dark:to-gray-700 rounded-xl p-6 border border-blue-200 dark:border-gray-600">
+        <h3 className="font-semibold text-blue-900 dark:text-gray-100 mb-4 flex items-center">
           <Download className="h-5 w-5 mr-2" />
           Export Options
         </h3>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-sm">
-          <div className="bg-white rounded-lg p-4 border border-blue-200">
-            <h4 className="font-medium text-blue-900 mb-2">Summary Report</h4>
-            <p className="text-blue-700 mb-3">Export filtered data as CSV with summary statistics</p>
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-blue-200 dark:border-gray-600">
+            <h4 className="font-medium text-blue-900 dark:text-gray-100 mb-2">Summary Report</h4>
+            <p className="text-blue-700 dark:text-gray-400 mb-3">Export filtered data as CSV with summary statistics</p>
             <button
               onClick={generateSummaryReport}
-              className="text-blue-600 hover:text-blue-700 font-medium"
+              className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
             >
               Export CSV →
             </button>
           </div>
-          <div className="bg-white rounded-lg p-4 border border-blue-200">
-            <h4 className="font-medium text-blue-900 mb-2">Individual PDFs</h4>
-            <p className="text-blue-700 mb-3">Generate detailed PDF reports for specific inspections</p>
-            <p className="text-blue-600 font-medium">Use table actions →</p>
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-blue-200 dark:border-gray-600">
+            <h4 className="font-medium text-blue-900 dark:text-gray-100 mb-2">Individual PDFs</h4>
+            <p className="text-blue-700 dark:text-gray-400 mb-3">Generate detailed PDF reports for specific inspections</p>
+            <p className="text-blue-600 dark:text-blue-400 font-medium">Use table actions →</p>
           </div>
-          <div className="bg-white rounded-lg p-4 border border-blue-200">
-            <h4 className="font-medium text-blue-900 mb-2">Batch Processing</h4>
-            <p className="text-blue-700 mb-3">Upload multiple images for combined analysis report</p>
+          <div className="bg-white dark:bg-gray-800 rounded-lg p-4 border border-blue-200 dark:border-gray-600">
+            <h4 className="font-medium text-blue-900 dark:text-gray-100 mb-2">Batch Processing</h4>
+            <p className="text-blue-700 dark:text-gray-400 mb-3">Upload multiple images for combined analysis report</p>
             <Link
               to="/upload"
-              className="text-blue-600 hover:text-blue-700 font-medium"
+              className="text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
             >
               Go to Upload →
             </Link>

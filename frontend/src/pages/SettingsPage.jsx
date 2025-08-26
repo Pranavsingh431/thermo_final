@@ -18,6 +18,7 @@ import {
 import { useAlert } from '../contexts/AlertContext';
 import { useTheme } from '../contexts/ThemeContext';
 import { API_BASE_URL } from '../config';
+import { updateEmailRecipients } from '../utils/api';
 
 const SettingsPage = () => {
   const { success, error } = useAlert();
@@ -62,10 +63,15 @@ const SettingsPage = () => {
   const handleSave = async () => {
     setSaving(true);
     try {
-      // Simulate API call
+      if (settings.emailRecipients && settings.emailRecipients.length > 0) {
+        await updateEmailRecipients(settings.emailRecipients);
+      }
+      
+      // Simulate saving other settings
       await new Promise(resolve => setTimeout(resolve, 1000));
       success('Settings saved successfully!');
     } catch (err) {
+      console.error('Failed to save settings:', err);
       error('Failed to save settings');
     } finally {
       setSaving(false);

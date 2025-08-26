@@ -864,7 +864,7 @@ async def send_critical_alert_email(report_data: Dict[str, Any]):
         # Create multipart message
         msg = MIMEMultipart('alternative')
         msg['From'] = SMTP_USER
-        msg['To'] = ALERT_EMAIL_RECIPIENT
+        msg['To'] = ', '.join(ALERT_RECIPIENTS)
         msg['Subject'] = subject
         
         # Attach both HTML and plaintext versions
@@ -879,7 +879,8 @@ async def send_critical_alert_email(report_data: Dict[str, Any]):
             server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
             server.starttls()
             server.login(SMTP_USER, SMTP_PASSWORD)
-            server.sendmail(SMTP_USER, ALERT_EMAIL_RECIPIENT, msg.as_string())
+            for recipient in ALERT_RECIPIENTS:
+                server.sendmail(SMTP_USER, recipient, msg.as_string())
             server.quit()
             
             print(f"✅ Critical alert email sent for {report_data.get('tower_name', 'Unknown Tower')}")
@@ -1664,7 +1665,7 @@ async def upload_thermal_image(
                 ai_body = await generate_email_ai_summary(report_dict)
                 msg = MIMEMultipart()
                 msg['From'] = SMTP_USER
-                msg['To'] = ALERT_EMAIL_RECIPIENT
+                msg['To'] = ', '.join(ALERT_RECIPIENTS)
                 msg['Subject'] = f"🚨 CRITICAL Thermal Alert - {report_dict.get('tower_name', 'Unknown Tower')}"
                 msg.attach(MIMEText(ai_body, 'plain'))
 
@@ -1683,7 +1684,8 @@ async def upload_thermal_image(
                 server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
                 server.starttls()
                 server.login(SMTP_USER, SMTP_PASSWORD)
-                server.sendmail(SMTP_USER, ALERT_EMAIL_RECIPIENT, msg.as_string())
+                for recipient in ALERT_RECIPIENTS:
+                    server.sendmail(SMTP_USER, recipient, msg.as_string())
                 server.quit()
                 print("✅ Critical email with AI body and PDF sent")
             except Exception as e:
@@ -1916,7 +1918,7 @@ async def upload_batch(
             # Create multipart message
             msg = MIMEMultipart('alternative')
             msg['From'] = SMTP_USER
-            msg['To'] = ALERT_EMAIL_RECIPIENT
+            msg['To'] = ', '.join(ALERT_RECIPIENTS)
             msg['Subject'] = subject
             
             # Attach both HTML and plaintext versions
@@ -1943,7 +1945,8 @@ async def upload_batch(
                 server = smtplib.SMTP(SMTP_HOST, SMTP_PORT)
                 server.starttls()
                 server.login(SMTP_USER, SMTP_PASSWORD)
-                server.sendmail(SMTP_USER, ALERT_EMAIL_RECIPIENT, msg.as_string())
+                for recipient in ALERT_RECIPIENTS:
+                    server.sendmail(SMTP_USER, recipient, msg.as_string())
                 server.quit()
                 print(f"✅ Batch email summary sent ({critical} critical, {warning} warning)")
                 
@@ -2125,6 +2128,114 @@ Continue routine maintenance per standard operating procedures and manufacturer 
 
 5. OPERATIONAL STATUS
 Equipment approved for continued normal operation under current loading conditions. Thermal baseline established for future comparative analysis and trending assessment."""
+
+@app.delete("/reports/{report_id}")
+async def delete_report(
+    report_id: int,
+    db: Session = Depends(get_db),
+    current_user: AuthUser = Depends(get_current_user)
+):
+    """Delete a specific thermal inspection report."""
+    report = db.query(ThermalReport).filter(ThermalReport.id == report_id).first()
+    if not report:
+        raise HTTPException(status_code=404, detail="Report not found")
+    
+    if report.image_path:
+        try:
+            pdf_path = report.image_path.replace('.jpg', '.pdf').replace('.jpeg', '.pdf').replace('.png', '.pdf')
+            if os.path.exists(pdf_path):
+                os.remove(pdf_path)
+        except Exception as e:
+            print(f"Warning: Could not delete PDF file: {e}")
+    
+    db.delete(report)
+    db.commit()
+    
+    return {"message": "Report deleted successfully"}
+
+@app.delete("/reports/batch")
+async def delete_reports_batch(
+    request: Request,
+    db: Session = Depends(get_db),
+    current_user: AuthUser = Depends(get_current_user)
+):
+    """Delete multiple thermal inspection reports."""
+    body = await request.json()
+    report_ids = body.get("ids", [])
+    
+    if not report_ids:
+        raise HTTPException(status_code=400, detail="No report IDs provided")
+    
+    deleted_count = 0
+    for report_id in report_ids:
+        report = db.query(ThermalReport).filter(ThermalReport.id == report_id).first()
+        if report:
+            if report.image_path:
+                try:
+                    pdf_path = report.image_path.replace('.jpg', '.pdf').replace('.jpeg', '.pdf').replace('.png', '.pdf')
+                    if os.path.exists(pdf_path):
+                        os.remove(pdf_path)
+                except Exception as e:
+                    print(f"Warning: Could not delete PDF file: {e}")
+            
+            db.delete(report)
+            deleted_count += 1
+    
+    db.commit()
+    return {"message": f"Deleted {deleted_count} reports successfully"}
+
+@app.get("/reports/{report_id}/fault_progression")
+async def get_fault_progression(
+    report_id: int,
+    db: Session = Depends(get_db),
+    current_user: AuthUser = Depends(get_current_user)
+):
+    """Get fault progression data for radar chart."""
+    report = db.query(ThermalReport).filter(ThermalReport.id == report_id).first()
+    if not report:
+        raise HTTPException(status_code=404, detail="Report not found")
+    
+    # Find all reports with same tower_id and fault_level
+    related_reports = db.query(ThermalReport).filter(
+        ThermalReport.tower_id == report.tower_id,
+        ThermalReport.fault_level == report.fault_level,
+        ThermalReport.tower_id.isnot(None)
+    ).order_by(ThermalReport.timestamp.asc()).all()
+    
+    progression_data = []
+    for r in related_reports:
+        progression_data.append({
+            'date': r.timestamp.isoformat(),
+            'temperature': r.image_temp or 0,
+            'threshold': r.threshold_used or 5,
+            'delta_t': r.delta_t or 0
+        })
+    
+    return progression_data
+
+@app.put("/settings/email_recipients")
+async def update_email_recipients(
+    recipients: List[str],
+    db: Session = Depends(get_db),
+    current_user: AuthUser = Depends(get_current_user)
+):
+    """Update email alert recipients."""
+    import re
+    email_pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
+    
+    valid_recipients = []
+    for email in recipients:
+        email = email.strip()
+        if email and re.match(email_pattern, email):
+            valid_recipients.append(email)
+    
+    if not valid_recipients:
+        raise HTTPException(status_code=400, detail="No valid email addresses provided")
+    
+    global ALERT_RECIPIENTS
+    ALERT_RECIPIENTS = valid_recipients
+    
+    return {"message": f"Updated email recipients: {', '.join(valid_recipients)}"}
 
 if __name__ == "__main__":
     import uvicorn

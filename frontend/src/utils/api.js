@@ -131,4 +131,44 @@ export const checkApiHealth = async () => {
   return response.data;
 };
 
+/**
+ * Delete a specific thermal inspection report
+ * @param {number} reportId - Report ID to delete
+ * @returns {Promise<Object>} Delete confirmation
+ */
+export const deleteReport = async (reportId) => {
+  const response = await api.delete(`/reports/${reportId}`);
+  return response.data;
+};
+
+/**
+ * Delete multiple thermal inspection reports
+ * @param {number[]} reportIds - Array of report IDs to delete
+ * @returns {Promise<Object>} Delete confirmation
+ */
+export const deleteReportsBatch = async (reportIds) => {
+  const response = await api.delete('/reports/batch', { data: { ids: reportIds } });
+  return response.data;
+};
+
+/**
+ * Get fault progression data for radar chart
+ * @param {number} reportId - Report ID
+ * @returns {Promise<Array>} Fault progression data
+ */
+export const getFaultProgression = async (reportId) => {
+  const response = await api.get(`/reports/${reportId}/fault_progression`);
+  return response.data;
+};
+
+/**
+ * Update email alert recipients
+ * @param {string[]} recipients - Array of email addresses
+ * @returns {Promise<Object>} Update confirmation
+ */
+export const updateEmailRecipients = async (recipients) => {
+  const response = await api.put('/settings/email_recipients', recipients);
+  return response.data;
+};
+
 export default api;
