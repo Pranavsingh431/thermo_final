@@ -110,7 +110,7 @@ try:
     os.makedirs(REPORTS_DIR, exist_ok=True)
 except Exception:
     pass
-app.mount(f"/{REPORTS_DIR}", StaticFiles(directory=REPORTS_DIR), name="reports")
+app.mount(f"/static/{REPORTS_DIR}", StaticFiles(directory=REPORTS_DIR), name="reports")
 
 # CORS middleware for React frontend
 app.add_middleware(
@@ -1750,6 +1750,62 @@ async def upload_thermal_image(
             os.remove(image_path)
         raise HTTPException(status_code=500, detail=f"Analysis failed: {str(e)}")
 
+
+@app.delete("/reports/{report_id}")
+async def delete_report(
+    report_id: int,
+    db: Session = Depends(get_db),
+    current_user: AuthUser = Depends(get_current_user)
+):
+    """Delete a specific thermal inspection report."""
+    report = db.query(ThermalReport).filter(ThermalReport.id == report_id).first()
+    if not report:
+        raise HTTPException(status_code=404, detail="Report not found")
+    
+    if report.image_path:
+        try:
+            pdf_path = report.image_path.replace('.jpg', '.pdf').replace('.jpeg', '.pdf').replace('.png', '.pdf')
+            if os.path.exists(pdf_path):
+                os.remove(pdf_path)
+        except Exception as e:
+            print(f"Warning: Could not delete PDF file: {e}")
+    
+    db.delete(report)
+    db.commit()
+    
+    return {"message": "Report deleted successfully"}
+
+@app.delete("/reports/batch")
+async def delete_reports_batch(
+    request: Request,
+    db: Session = Depends(get_db),
+    current_user: AuthUser = Depends(get_current_user)
+):
+    """Delete multiple thermal inspection reports."""
+    body = await request.json()
+    report_ids = body.get("ids", [])
+    
+    if not report_ids:
+        raise HTTPException(status_code=400, detail="No report IDs provided")
+    
+    deleted_count = 0
+    for report_id in report_ids:
+        report = db.query(ThermalReport).filter(ThermalReport.id == report_id).first()
+        if report:
+            if report.image_path:
+                try:
+                    pdf_path = report.image_path.replace('.jpg', '.pdf').replace('.jpeg', '.pdf').replace('.png', '.pdf')
+                    if os.path.exists(pdf_path):
+                        os.remove(pdf_path)
+                except Exception as e:
+                    print(f"Warning: Could not delete PDF file: {e}")
+            
+            db.delete(report)
+            deleted_count += 1
+    
+    db.commit()
+    return {"message": f"Deleted {deleted_count} reports successfully"}
+
 @app.get("/reports", response_model=List[ReportSummary])
 async def get_reports(
     db: Session = Depends(get_db),
@@ -2129,60 +2185,6 @@ Continue routine maintenance per standard operating procedures and manufacturer 
 5. OPERATIONAL STATUS
 Equipment approved for continued normal operation under current loading conditions. Thermal baseline established for future comparative analysis and trending assessment."""
 
-@app.delete("/reports/{report_id}")
-async def delete_report(
-    report_id: int,
-    db: Session = Depends(get_db),
-    current_user: AuthUser = Depends(get_current_user)
-):
-    """Delete a specific thermal inspection report."""
-    report = db.query(ThermalReport).filter(ThermalReport.id == report_id).first()
-    if not report:
-        raise HTTPException(status_code=404, detail="Report not found")
-    
-    if report.image_path:
-        try:
-            pdf_path = report.image_path.replace('.jpg', '.pdf').replace('.jpeg', '.pdf').replace('.png', '.pdf')
-            if os.path.exists(pdf_path):
-                os.remove(pdf_path)
-        except Exception as e:
-            print(f"Warning: Could not delete PDF file: {e}")
-    
-    db.delete(report)
-    db.commit()
-    
-    return {"message": "Report deleted successfully"}
-
-@app.delete("/reports/batch")
-async def delete_reports_batch(
-    request: Request,
-    db: Session = Depends(get_db),
-    current_user: AuthUser = Depends(get_current_user)
-):
-    """Delete multiple thermal inspection reports."""
-    body = await request.json()
-    report_ids = body.get("ids", [])
-    
-    if not report_ids:
-        raise HTTPException(status_code=400, detail="No report IDs provided")
-    
-    deleted_count = 0
-    for report_id in report_ids:
-        report = db.query(ThermalReport).filter(ThermalReport.id == report_id).first()
-        if report:
-            if report.image_path:
-                try:
-                    pdf_path = report.image_path.replace('.jpg', '.pdf').replace('.jpeg', '.pdf').replace('.png', '.pdf')
-                    if os.path.exists(pdf_path):
-                        os.remove(pdf_path)
-                except Exception as e:
-                    print(f"Warning: Could not delete PDF file: {e}")
-            
-            db.delete(report)
-            deleted_count += 1
-    
-    db.commit()
-    return {"message": f"Deleted {deleted_count} reports successfully"}
 
 @app.get("/reports/{report_id}/fault_progression")
 async def get_fault_progression(
