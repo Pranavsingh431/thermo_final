@@ -18,7 +18,10 @@ from math import radians, cos, sin, asin, sqrt
 import structlog
 import sentry_sdk
 from sentry_sdk.integrations.fastapi import FastApiIntegration
-from sentry_sdk.integrations.sqlalchemy import SqlAlchemyIntegration
+try:
+    from sentry_sdk.integrations.sqlalchemy import SqlAlchemyIntegration
+except ImportError:
+    SqlAlchemyIntegration = None
 
 structlog.configure(
     processors=[
@@ -40,12 +43,13 @@ structlog.configure(
 # Configure Sentry for error tracking
 SENTRY_DSN = os.environ.get('SENTRY_DSN')
 if SENTRY_DSN:
+    integrations = [FastApiIntegration(auto_enabling_integrations=False)]
+    if SqlAlchemyIntegration:
+        integrations.append(SqlAlchemyIntegration())
+    
     sentry_sdk.init(
         dsn=SENTRY_DSN,
-        integrations=[
-            FastApiIntegration(auto_enabling_integrations=False),
-            SqlAlchemyIntegration(),
-        ],
+        integrations=integrations,
         traces_sample_rate=0.1,
         environment=os.environ.get('ENVIRONMENT', 'development')
     )
@@ -1512,7 +1516,6 @@ async def health_check():
 
 
 
-@app.post("/upload", response_model=UploadResponse)
 def validate_uploaded_file(file: UploadFile) -> None:
     """Validate uploaded file for security and format compliance"""
     # Check file extension
@@ -1546,6 +1549,7 @@ def validate_uploaded_file(file: UploadFile) -> None:
             detail="Invalid image file. File appears to be corrupted or not a valid image."
         )
 
+@app.post("/upload", response_model=UploadResponse)
 async def upload_thermal_image(
     request: Request,
     file: UploadFile = File(...), 
