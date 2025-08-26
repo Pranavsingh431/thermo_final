@@ -64,6 +64,9 @@ OCR_USE_ENHANCED_PREPROCESSING = os.environ.get('OCR_USE_ENHANCED_PREPROCESSING'
 # Email settings
 ALERT_EMAIL_RECIPIENT = "singhpranav431@gmail.com"
 
+ALERT_RECIPIENTS = os.environ.get('ALERT_RECIPIENTS', ALERT_EMAIL_RECIPIENT).split(',')
+ALERT_RECIPIENTS = [email.strip() for email in ALERT_RECIPIENTS if email.strip()]
+
 # OpenRouter API settings
 # Using budget-friendly but powerful model for better performance
 OPENROUTER_MODEL = os.environ.get('OPENROUTER_MODEL', "meta-llama/llama-3.1-8b-instruct")

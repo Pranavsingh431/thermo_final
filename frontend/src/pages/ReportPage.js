@@ -16,7 +16,8 @@ import {
   Settings,
   RefreshCw
 } from 'lucide-react';
-import { generateDetailedReport } from '../utils/api';
+import { RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts';
+import { generateDetailedReport, getFaultProgression } from '../utils/api';
 import { API_BASE_URL } from '../config';
 import { useAlert } from '../contexts/AlertContext';
 import { 
@@ -32,6 +33,8 @@ const ReportPage = () => {
   const [report, setReport] = useState(null);
   const [loading, setLoading] = useState(true);
   const [generatingAI, setGeneratingAI] = useState(false);
+  const [faultProgression, setFaultProgression] = useState([]);
+  const [ambientTempData, setAmbientTempData] = useState([]);
   const { error, success } = useAlert();
 
   useEffect(() => {
@@ -50,6 +53,21 @@ const ReportPage = () => {
       })();
     }
   }, [id]);
+
+  useEffect(() => {
+    if (report?.report_data?.id) {
+      getFaultProgression(report.report_data.id)
+        .then(data => setFaultProgression(data))
+        .catch(err => console.error('Failed to fetch fault progression:', err));
+      
+      const ambientData = [{
+        name: 'Current Reading',
+        ambient_temp: report.report_data.ambient_temp || 0,
+        image_temp: report.report_data.image_temp || 0
+      }];
+      setAmbientTempData(ambientData);
+    }
+  }, [report]);
 
   const regenerateAISummary = async () => {
     try {
@@ -310,6 +328,64 @@ const ReportPage = () => {
                   <span className="font-medium">Thermal Eye v1.0</span>
                 </div>
               </div>
+            </div>
+          </div>
+          
+          {/* Fault Progression Charts */}
+          {faultProgression.length > 1 && (
+            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center">
+                <TrendingUp className="h-5 w-5 mr-2 text-purple-500" />
+                Fault Progression Analysis
+              </h2>
+              
+              <div className="h-80">
+                <ResponsiveContainer width="100%" height="100%">
+                  <RadarChart data={faultProgression.map(item => ({
+                    date: new Date(item.date).toLocaleDateString(),
+                    temperature: item.temperature,
+                    threshold: item.threshold,
+                    delta: item.delta_t
+                  }))}>
+                    <PolarGrid />
+                    <PolarAngleAxis dataKey="date" />
+                    <PolarRadiusAxis angle={90} domain={[0, 'dataMax']} />
+                    <Radar name="Temperature" dataKey="temperature" stroke="#f59e0b" fill="#f59e0b" fillOpacity={0.3} />
+                    <Radar name="Threshold" dataKey="threshold" stroke="#ef4444" fill="#ef4444" fillOpacity={0.1} />
+                    <Tooltip />
+                  </RadarChart>
+                </ResponsiveContainer>
+              </div>
+            </div>
+          )}
+          
+          {faultProgression.length <= 1 && (
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-xl p-6 text-center">
+              <p className="text-gray-500 dark:text-gray-400">
+                Not enough data for fault progression analysis. Upload more images of the same fault to see trends.
+              </p>
+            </div>
+          )}
+
+          {/* Temperature Comparison Chart */}
+          <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
+            <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center">
+              <Thermometer className="h-5 w-5 mr-2 text-blue-500" />
+              Temperature Comparison
+            </h2>
+            
+            <div className="h-64">
+              <ResponsiveContainer width="100%" height="100%">
+                <LineChart data={ambientTempData}>
+                  <CartesianGrid strokeDasharray="3 3" />
+                  <XAxis dataKey="name" />
+                  <YAxis />
+                  <Tooltip />
+                  <Legend />
+                  <Line type="monotone" dataKey="ambient_temp" stroke="#3b82f6" name="Ambient Temperature (°C)" />
+                  <Line type="monotone" dataKey="image_temp" stroke="#ef4444" name="Image Temperature (°C)" />
+                </LineChart>
+              </ResponsiveContainer>
             </div>
           </div>
         </div>
