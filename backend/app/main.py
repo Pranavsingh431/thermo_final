@@ -349,6 +349,104 @@ class ExcelDataIntegrator:
 # Initialize Excel integrator
 excel_integrator = ExcelDataIntegrator()
 
+class KMLDataIntegrator:
+    """Parse KML files to extract tower coordinates and power line data."""
+    
+    def __init__(self):
+        self.tower_data = {}
+        self.power_lines = []
+        self.load_kml_data()
+    
+    def load_kml_data(self):
+        """Load KML files from the downloaded Google Drive data."""
+        kml_files = [
+            '/home/ubuntu/browser_downloads/110_kV_Bhira_Khopoli_Line_2.kml',
+            '/home/ubuntu/browser_downloads/110_kV_Khopoli_Bhivpuri_Tie_Line_1_&_2.kml'
+        ]
+        
+        for kml_file in kml_files:
+            try:
+                if os.path.exists(kml_file):
+                    self.parse_kml_file(kml_file)
+            except Exception as e:
+                print(f"⚠️ Warning: Could not parse KML file {kml_file}: {e}")
+        
+        print(f"✅ Loaded {len(self.tower_data)} towers and {len(self.power_lines)} power lines from KML")
+    
+    def parse_kml_file(self, file_path):
+        """Parse individual KML file to extract tower coordinates and line data."""
+        import xml.etree.ElementTree as ET
+        
+        tree = ET.parse(file_path)
+        root = tree.getroot()
+        
+        # Extract line name from document name
+        line_name_elem = root.find('.//{http://www.opengis.net/kml/2.2}Document/{http://www.opengis.net/kml/2.2}name')
+        line_name = line_name_elem.text if line_name_elem is not None else "Unknown Line"
+        
+        # Extract tower placemarks
+        placemarks = root.findall('.//{http://www.opengis.net/kml/2.2}Placemark')
+        line_coordinates = []
+        
+        for placemark in placemarks:
+            name_elem = placemark.find('.//{http://www.opengis.net/kml/2.2}name')
+            coords_elem = placemark.find('.//{http://www.opengis.net/kml/2.2}coordinates')
+            
+            if name_elem is not None and coords_elem is not None:
+                tower_name = name_elem.text
+                coords_text = coords_elem.text.strip()
+                
+                coords_parts = coords_text.split(',')
+                if len(coords_parts) >= 2:
+                    try:
+                        longitude = float(coords_parts[0])
+                        latitude = float(coords_parts[1])
+                        altitude = float(coords_parts[2]) if len(coords_parts) > 2 else 0
+                        
+                        self.tower_data[tower_name] = {
+                            'latitude': latitude,
+                            'longitude': longitude,
+                            'altitude': altitude,
+                            'line_name': line_name,
+                            'tower_name': tower_name
+                        }
+                        
+                        line_coordinates.append([latitude, longitude])
+                    except ValueError as e:
+                        print(f"⚠️ Warning: Invalid coordinates in {tower_name}: {e}")
+        
+        if line_coordinates:
+            self.power_lines.append({
+                'name': line_name,
+                'coordinates': line_coordinates,
+                'voltage': self.extract_voltage_from_name(line_name)
+            })
+    
+    def extract_voltage_from_name(self, line_name):
+        """Extract voltage level from line name."""
+        import re
+        voltage_match = re.search(r'(\d+)\s*kV', line_name)
+        return int(voltage_match.group(1)) if voltage_match else 110
+    
+    def find_nearest_kml_tower(self, lat, lon, max_distance_km=5.0):
+        """Find nearest tower from KML data."""
+        nearest_tower = None
+        min_distance = float('inf')
+        
+        for tower_name, tower_data in self.tower_data.items():
+            distance = haversine_distance(lat, lon, tower_data['latitude'], tower_data['longitude'])
+            if distance < min_distance and distance <= max_distance_km:
+                min_distance = distance
+                nearest_tower = {
+                    **tower_data,
+                    'distance_km': distance
+                }
+        
+        return nearest_tower
+
+# Initialize KML integrator
+kml_integrator = KMLDataIntegrator()
+
 # Load towers data
 try:
     towers_df = pd.read_csv(TOWERS_CSV_PATH)
@@ -671,7 +769,19 @@ def haversine_distance(lat1: float, lon1: float, lat2: float, lon2: float) -> fl
     return c * 6371  # Earth radius in km
 
 def find_nearest_tower(lat: float, lon: float) -> Optional[Dict[str, Any]]:
-    """Find the nearest tower to given coordinates."""
+    """Find the nearest tower using KML data first, then fallback to CSV data."""
+    
+    kml_tower = kml_integrator.find_nearest_kml_tower(lat, lon)
+    if kml_tower:
+        return {
+            'tower_id': hash(kml_tower['tower_name']) % 10000,
+            'tower_name': kml_tower['tower_name'],
+            'camp_name': kml_tower['line_name'],
+            'latitude': kml_tower['latitude'],
+            'longitude': kml_tower['longitude'],
+            'distance_km': kml_tower['distance_km']
+        }
+    
     if towers_df.empty:
         return None
     
@@ -688,7 +798,6 @@ def find_nearest_tower(lat: float, lon: float) -> Optional[Dict[str, Any]]:
                 min_distance = distance
                 camp_name = tower.get('camp_name', 'Unknown Camp')
                 
-                # Get enhanced metadata
                 metadata = excel_integrator.get_tower_metadata(tower['tower_name'], camp_name)
                 
                 nearest_tower = {
@@ -2236,6 +2345,18 @@ async def update_email_recipients(
     ALERT_RECIPIENTS = valid_recipients
     
     return {"message": f"Updated email recipients: {', '.join(valid_recipients)}"}
+
+@app.get("/api/power-lines")
+async def get_power_lines():
+    """Get power line coordinates for map visualization."""
+    try:
+        return {
+            "power_lines": kml_integrator.power_lines,
+            "total_lines": len(kml_integrator.power_lines)
+        }
+    except Exception as e:
+        logger.error(f"Error fetching power lines: {e}")
+        raise HTTPException(status_code=500, detail="Failed to fetch power line data")
 
 if __name__ == "__main__":
     import uvicorn

@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup, LayersControl } from 'react-leaflet';
+import React, { useState, useEffect } from 'react';
+import { MapContainer, TileLayer, Marker, Popup, LayersControl, Polyline } from 'react-leaflet';
 import L from 'leaflet';
 import { Link } from 'react-router-dom';
 import { MAP_CONFIG } from '../config';
 import { getFaultLevelBadgeClasses, getFaultLevelColor, formatDate, formatTemperature } from '../utils/helpers';
 import FaultLayer from './FaultLayer';
+import { API_BASE_URL } from '../config';
 
 // Create a colored circle marker for a given color
 const createCustomIcon = (color) =>
@@ -28,12 +29,32 @@ const MapView = ({
   reports = [], 
   showTowers = true, 
   showFaults = true,
+  showPowerLines = true,
   enableClustering = null 
 }) => {
   const [layerVisibility] = useState({
     towers: showTowers,
-    faults: showFaults
+    faults: showFaults,
+    powerLines: showPowerLines
   });
+  
+  const [powerLines, setPowerLines] = useState([]);
+
+  useEffect(() => {
+    const fetchPowerLines = async () => {
+      try {
+        const response = await fetch(`${API_BASE_URL}/api/power-lines`);
+        const data = await response.json();
+        setPowerLines(data.power_lines || []);
+      } catch (error) {
+        console.error('Failed to load power lines:', error);
+      }
+    };
+    
+    if (layerVisibility.powerLines) {
+      fetchPowerLines();
+    }
+  }, [layerVisibility.powerLines]);
 
   // Auto-enable clustering if many markers
   const shouldCluster = enableClustering ?? reports.length > 50;
@@ -108,37 +129,70 @@ const MapView = ({
           <LayersControl.Overlay name="Thermal Faults" checked={layerVisibility.faults}>
             <FaultLayer faults={faultData} visible={layerVisibility.faults} />
           </LayersControl.Overlay>
+
+          {/* Power Lines Layer */}
+          <LayersControl.Overlay name="Power Lines" checked={layerVisibility.powerLines}>
+            <div>
+              {layerVisibility.powerLines && powerLines.map((line, index) => (
+                <Polyline
+                  key={`powerline-${index}`}
+                  positions={line.coordinates}
+                  pathOptions={{
+                    color: line.voltage >= 220 ? '#ff6b6b' : '#4ecdc4',
+                    weight: line.voltage >= 220 ? 4 : 3,
+                    opacity: 0.7
+                  }}
+                >
+                  <Popup>
+                    <div className="p-2 bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+                      <h3 className="font-semibold text-gray-900 dark:text-gray-100">{line.name}</h3>
+                      <p className="text-sm text-gray-600 dark:text-gray-400">Voltage: {line.voltage} kV</p>
+                    </div>
+                  </Popup>
+                </Polyline>
+              ))}
+            </div>
+          </LayersControl.Overlay>
         </LayersControl>
       </MapContainer>
       
       {/* Custom Legend */}
-      <div className="absolute bottom-4 left-4 bg-white p-3 rounded-lg shadow-lg border z-[1000]">
-        <h4 className="text-sm font-semibold text-gray-900 mb-2">Map Legend</h4>
+      <div className="absolute bottom-4 left-4 bg-white dark:bg-gray-800 p-3 rounded-lg shadow-lg border z-[1000]">
+        <h4 className="text-sm font-semibold text-gray-900 dark:text-gray-100 mb-2">Map Legend</h4>
         <div className="space-y-2 text-xs">
           <div className="flex items-center space-x-2">
             <div className="w-4 h-4 bg-green-500 rounded-full border-2 border-white shadow"></div>
-            <span>Normal</span>
+            <span className="text-gray-900 dark:text-gray-100">Normal</span>
           </div>
           <div className="flex items-center space-x-2">
             <div className="w-4 h-4 bg-yellow-500 rounded-full border-2 border-white shadow"></div>
-            <span>Warning</span>
+            <span className="text-gray-900 dark:text-gray-100">Warning</span>
           </div>
           <div className="flex items-center space-x-2">
             <div className="w-4 h-4 bg-red-500 rounded-full border-2 border-white shadow"></div>
-            <span>Critical</span>
+            <span className="text-gray-900 dark:text-gray-100">Critical</span>
           </div>
           <hr className="my-2" />
           <div className="flex items-center space-x-2">
             <div className="w-3 h-3 bg-blue-500 border-2 border-white shadow"></div>
-            <span>Towers</span>
+            <span className="text-gray-900 dark:text-gray-100">Towers</span>
           </div>
           <div className="flex items-center space-x-2">
             <div className="w-3 h-3 bg-red-500 border-2 border-white shadow transform rotate-45"></div>
-            <span>Faults</span>
+            <span className="text-gray-900 dark:text-gray-100">Faults</span>
+          </div>
+          <hr className="my-2" />
+          <div className="flex items-center space-x-2">
+            <div className="w-3 h-1 bg-teal-500"></div>
+            <span className="text-gray-900 dark:text-gray-100">110kV Lines</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="w-3 h-1 bg-red-500"></div>
+            <span className="text-gray-900 dark:text-gray-100">220kV Lines</span>
           </div>
         </div>
         {shouldCluster && (
-          <div className="mt-2 pt-2 border-t text-xs text-gray-500">
+          <div className="mt-2 pt-2 border-t text-xs text-gray-500 dark:text-gray-400">
             Clustering enabled ({reports.length} markers)
           </div>
         )}
