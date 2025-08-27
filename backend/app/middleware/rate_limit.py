@@ -10,7 +10,7 @@ from starlette.middleware.base import BaseHTTPMiddleware
 
 
 class RateLimitMiddleware(BaseHTTPMiddleware):
-    def __init__(self, app, calls: int = 60, period: int = 60):
+    def __init__(self, app, calls: int = 1000, period: int = 60):
         super().__init__(app)
         self.calls = calls
         self.period = period
@@ -93,5 +93,5 @@ class EndpointRateLimit:
 
 
 # Create rate limiters for different endpoints
-general_rate_limit = EndpointRateLimit(calls=60, period=60)  # 60 requests per minute
-upload_rate_limit = EndpointRateLimit(calls=10, period=60)   # 10 uploads per minute
+general_rate_limit = EndpointRateLimit(calls=1000, period=60)  # 1000 requests per minute for testing
+upload_rate_limit = EndpointRateLimit(calls=100, period=60)   # 100 uploads per minute for testing
