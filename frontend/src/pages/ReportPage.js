@@ -139,7 +139,7 @@ const ReportPage = () => {
   const pdfHref = pdf_path
     ? (pdf_path.startsWith('http')
         ? pdf_path
-        : `${API_BASE_URL}/${pdf_path.replace(/^\//, '')}`)
+        : `${API_BASE_URL}/static/${pdf_path.replace(/^\//, '')}`)
     : null;
 
   return (
