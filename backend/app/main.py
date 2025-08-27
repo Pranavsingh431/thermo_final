@@ -110,7 +110,7 @@ try:
     os.makedirs(REPORTS_DIR, exist_ok=True)
 except Exception:
     pass
-app.mount(f"/{REPORTS_DIR}", StaticFiles(directory=REPORTS_DIR), name="reports")
+app.mount(f"/static/{REPORTS_DIR}", StaticFiles(directory=REPORTS_DIR), name="reports")
 
 # CORS middleware for React frontend
 app.add_middleware(
