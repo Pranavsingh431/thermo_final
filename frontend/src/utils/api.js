@@ -171,4 +171,13 @@ export const updateEmailRecipients = async (recipients) => {
   return response.data;
 };
 
+/**
+ * Fetch power line data for map visualization
+ * @returns {Promise<Object>} Power lines data
+ */
+export const fetchPowerLines = async () => {
+  const response = await api.get('/api/power-lines');
+  return response.data;
+};
+
 export default api;
